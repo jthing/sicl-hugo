@@ -1,0 +1,4 @@
+baseURL = 'https://jthing.github.io/cicl-hugo/'
+languageCode = 'en-us'
+title = 'CICL Compiler'
+theme = 'holy'
