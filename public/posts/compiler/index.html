@@ -113,21 +113,103 @@ itself must compile fast similarly to the SBCL compiler today or
 better. This is a preliminary draft of my ideas of how this can be
 accomplished, subject to approved by Dr Strand.</p>
 <h2 id="the-26-special-forms-of-common-lisp">The 26 special forms of common lisp</h2>
+<p>By the time the code gets to the compiler the macro-expander has already run and all that
+is left are the 26 special forms that need to be compiled.</p>
+<table>
+<thead>
+<tr>
+<th>block</th>
+<th>if</th>
+<th>progv</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>catch</td>
+<td>labels</td>
+<td>quote</td>
+</tr>
+<tr>
+<td>load-time-eval</td>
+<td>let</td>
+<td>return-from</td>
+</tr>
+<tr>
+<td>declare</td>
+<td>let*</td>
+<td>setq</td>
+</tr>
+<tr>
+<td>eval-when</td>
+<td>macrolet</td>
+<td>tagbody</td>
+</tr>
+<tr>
+<td>flet</td>
+<td>multiple-value-call</td>
+<td>the</td>
+</tr>
+<tr>
+<td>function</td>
+<td>multiple-value-prog1</td>
+<td>throw</td>
+</tr>
+<tr>
+<td>go</td>
+<td>progn</td>
+<td>unwind-protect</td>
+</tr>
+<tr>
+<td>generic-flet</td>
+<td>generic-labels</td>
+<td>symbol-macrolet</td>
+</tr>
+<tr>
+<td>with-added-methods</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="structure">Structure</h2>
 <figure><img src="../../images/Structure.svg"/>
 </figure>
 
-<p>Mind you a SSA form (single static assignment) mentioned in the above
-paper should be replaced with a CPS form (continuation passing style) for CL</p>
 <h2 id="optimization">Optimization</h2>
 <h3 id="the-ir-language">The IR language</h3>
+<p>Mind you a SSA form (single static assignment) mentioned in the above
+paper should be replaced with a CPS form (continuation passing style) for CL</p>
 <h3 id="peephole-optimizations">peephole optimizations</h3>
+<ul>
+<li>Null sequences – Delete useless operations.</li>
+<li>Combine operations – Replace several operations with one equivalent.</li>
+<li>Algebraic laws – Use algebraic laws to simplify or reorder instructions.</li>
+<li>Special case instructions – Use instructions designed for special operand cases.</li>
+<li>Address mode operations – Use address modes to simplify code.</li>
+</ul>
+<p>&hellip;</p>
 <h3 id="typecheck-optimization">typecheck optimization</h3>
+<p>Remove unnecessary type checks. Move type checks out of loops.</p>
 <h3 id="invariant-lifter">Invariant lifter</h3>
+<p>Lifts invariants (also called constant expressions) out of loops.</p>
 <h3 id="loop-unrolling">loop unrolling</h3>
+<p>Unrolls loops giving more opportunity of for parallelism. See Instruction Fusion below.</p>
 <h2 id="machine-code-translation">Machine code translation</h2>
+<p>More than just translating the Universal Assembly to machine code there are also
+architecture specific optimizations.</p>
 <h3 id="register-optimization">Register optimization</h3>
+<p>I suggest Linear scan for speed.</p>
+<p>Linear Scan is a algorithm suggested by Poletto in 1999. I this
+approach the code is not turned into a graph. Instead, all the
+variables are linearly scanned to determine the live range,
+represented as a interval. Once all the live ranges have been
+determined, the intervals are traversed chronologically. Although this
+traversal could help identifying which variables whose live ranges
+interfere, no graph is being built and the variable are allocate din
+a greedy way.</p>
 <h3 id="instruction-fusion">Instruction fusion</h3>
+<p>Instruction fusion is the process of grouping arithmetic instructions together to form
+vector instructions.</p>
 <h3 id="jmp-elimination">jmp elimination</h3>
 <h2 id="runtime">Runtime</h2>
 </div></article>
