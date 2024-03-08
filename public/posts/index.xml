@@ -20,7 +20,7 @@
       <link>//jthing.github.io/cicl-hugo/posts/compiler/</link>
       <pubDate>Fri, 08 Mar 2024 00:00:00 +0100</pubDate>
       <guid>//jthing.github.io/cicl-hugo/posts/compiler/</guid>
-      <description>preliminary draft for compiler design scope This is a continuation of Stands CICL (Compiler in Common Lisp). Although most of the compiler can itself be written in Common Lisp to be a compliant Compiler it must eventually compile to machine code. Today this is done by the SBCL compiler. To make the compiler work standalone this will need to be implemented and it is this task that has fallen on me.</description>
+      <description>preliminary draft for compiler design scope This is a continuation of Stands CICL (Compiler in Common Lisp). Although most of the compiler can itself be written in Common Lisp to be a compliant Compiler it must eventually compile to machine code. Today this is done by the SBCL compiler. To make the compiler work standalone this will need to be implemented and thus I have drafted this proposal. It is criteria that the compiler need to be fast and good.</description>
     </item>
   </channel>
 </rss>

@@ -13,15 +13,10 @@ This is a continuation of Stands CICL (Compiler in Common
 Lisp). Although most of the compiler can itself be written in Common
 Lisp  to be a compliant Compiler it must eventually compile  to
 machine code. Today this is done by the SBCL compiler. To make the
-compiler work standalone this will need to be implemented and it is
-this task that has fallen on me. Remember mush of the heavy lifting is
-done by the macro processors so by the time the code reaches the
-compiler there are only 26 special forms left. It is these 26 special
-forms that must the  be translated to a Immediate Representation IR the
-optimized before generation machine code. It is criteria that the
-compiler need to be fast and good. A speed goal for the generated
-code would be to be within a factor of 3 of a C compiler. The compiler
-itself must compile fast similarly to the SBCL compiler today or
+compiler work standalone this will need to be implemented and thus I have drafted this
+proposal. It is criteria that the compiler need to be fast and good. A speed
+goal for the generated code would be to be within a factor of 3 of a C compiler. The
+compiler itself must compile fast similarly to the SBCL compiler today or
 better. This is a preliminary draft of my ideas of how this can be
 accomplished, subject to approved by Dr Strand.
 
