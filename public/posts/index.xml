@@ -15,5 +15,12 @@
       <guid>https://jthing.github.io/cicl-hugo/posts/my-first-post/</guid>
       <description>CICL compiler This is a blog to describe on-going developement of the CICL compiler. It&amp;rsquo;s goal is to convey ideas and research to fellow developers. It is NOT intended as veicle for sharing life experiences so if you are looking for that go elsewhere.&#xA;John aka younder&#xA;Visit the Hugo websize!</description>
     </item>
+    <item>
+      <title>template</title>
+      <link>https://jthing.github.io/cicl-hugo/posts/compiler/</link>
+      <pubDate>Fri, 08 Mar 2024 00:00:00 +0100</pubDate>
+      <guid>https://jthing.github.io/cicl-hugo/posts/compiler/</guid>
+      <description>preliminary draft for compiler design scope This is a continuation of Stands CICL (Compiler in Common Lisp). Although most of the compiler can itself be written in Common Lisp to be a compliant Compiler it must eventually compile to machine code. Today this is done by the SBCL compiler. To make the compiler work standalone this will need to be implemented and it is this task that has fallen on me.</description>
+    </item>
   </channel>
 </rss>
