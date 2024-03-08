@@ -112,5 +112,12 @@ vector instructions.
 
 ### jmp elimination {#jmp-elimination}
 
+The assembly of then include instructions for things like conditional add which don't require
+jumping. Substitute there if possible.
+
 
 ## Runtime {#runtime}
+
+Finally the compiler has finished ad the binary blob is passed to the run-time for
+execution. A dialog is also necessary to find variables, functions and like referenced from
+the expression being evaluated.

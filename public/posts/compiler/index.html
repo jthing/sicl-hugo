@@ -211,7 +211,12 @@ a greedy way.</p>
 <p>Instruction fusion is the process of grouping arithmetic instructions together to form
 vector instructions.</p>
 <h3 id="jmp-elimination">jmp elimination</h3>
+<p>The assembly of then include instructions for things like conditional add which don&rsquo;t require
+jumping. Substitute there if possible.</p>
 <h2 id="runtime">Runtime</h2>
+<p>Finally the compiler has finished ad the binary blob is passed to the run-time for
+execution. A dialog is also necessary to find variables, functions and like referenced from
+the expression being evaluated.</p>
 </div></article>
 <footer class="py:24">
     <div class="f:fade-30 f:14 mb:8"></div>
