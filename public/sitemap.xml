@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jthing.github.io/cicl-hugo/</loc>
+    <loc>//jthing.github.io/cicl-hugo/</loc>
     <lastmod>2024-03-08T10:28:24+01:00</lastmod>
   </url><url>
-    <loc>https://jthing.github.io/cicl-hugo/posts/my-first-post/</loc>
+    <loc>//jthing.github.io/cicl-hugo/posts/my-first-post/</loc>
     <lastmod>2024-03-08T10:28:24+01:00</lastmod>
   </url><url>
-    <loc>https://jthing.github.io/cicl-hugo/posts/</loc>
+    <loc>//jthing.github.io/cicl-hugo/posts/</loc>
     <lastmod>2024-03-08T10:28:24+01:00</lastmod>
   </url><url>
-    <loc>https://jthing.github.io/cicl-hugo/posts/compiler/</loc>
+    <loc>//jthing.github.io/cicl-hugo/posts/compiler/</loc>
     <lastmod>2024-03-08T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://jthing.github.io/cicl-hugo/categories/</loc>
+    <loc>//jthing.github.io/cicl-hugo/categories/</loc>
   </url><url>
-    <loc>https://jthing.github.io/cicl-hugo/tags/</loc>
+    <loc>//jthing.github.io/cicl-hugo/tags/</loc>
   </url>
 </urlset>

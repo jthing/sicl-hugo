@@ -1,4 +1,4 @@
-baseURL = 'https://jthing.github.io/cicl-hugo/'
+baseURL = '//jthing.github.io/cicl-hugo/'
 languageCode = 'en-us'
 staticDir='static'
 title = 'CICL Compiler'
