@@ -1,7 +1,6 @@
 +++
 title = 'My First Post'
 date = 2024-03-08T10:28:24+01:00
-draft = true
 +++
 
 ## CICL compiler
