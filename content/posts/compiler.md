@@ -33,6 +33,9 @@ accomplished, subject to approved by Dr Strand.
 
 {{< figure src="/images/Structure.svg" >}}
 
+Mind you a SSA form (single static assignment) mentioned in the above
+paper should be replaced with a CPS form (continuation passing style) for CL
+
 
 ## Optimization {#optimization}
 
@@ -43,25 +46,25 @@ accomplished, subject to approved by Dr Strand.
 ### peephole optimizations {#peephole-optimizations}
 
 
-### Constant propagation {#constant-propagation}
+### typecheck optimization {#typecheck-optimization}
 
 
-### Code inlining {#code-inlining}
+### Invariant lifter {#invariant-lifter}
 
 
 ### loop unrolling {#loop-unrolling}
 
 
-### register optimization {#register-optimization}
-
-
-### typecheck optimizations {#typecheck-optimizations}
-
-
-## Memory handling {#memory-handling}
-
-
 ## Machine code translation {#machine-code-translation}
 
-Mind you a SSA form (single static assignment) mentioned in the above
-paper should be replaced with a CPS form (continuation passing style) for CL
+
+### Register optimization {#register-optimization}
+
+
+### Instruction fusion {#instruction-fusion}
+
+
+### jmp elimination {#jmp-elimination}
+
+
+## Runtime {#runtime}

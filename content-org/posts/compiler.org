@@ -30,19 +30,24 @@ accomplished, subject to approved by Dr Strand.
 * Structure
 
 [[../../static/images/Structure.svg]]
-* Optimization
-** The IR language
-** peephole optimizations
-** Constant propagation
-** Code inlining
-** loop unrolling
-** register optimization
-** typecheck optimizations
-* Memory handling
-* Machine code translation
 
 Mind you a SSA form (single static assignment) mentioned in the above
 paper should be replaced with a CPS form (continuation passing style) for CL
+
+* Optimization
+** The IR language
+** peephole optimizations
+** typecheck optimization
+** Invariant lifter
+** loop unrolling
+
+* Machine code translation
+** Register optimization
+** Instruction fusion
+** jmp elimination
+
+* Runtime
+
 
 # Local Variables:
 # eval: (set-fill-column 90)
@@ -50,4 +55,4 @@ paper should be replaced with a CPS form (continuation passing style) for CL
 # eval: (org-hugo-auto-export-mode t)
 # End:
 
-#  LocalWords:  inlining typecheck CICL SBCL svg
+#  LocalWords:  inlining typecheck CICL SBCL svg jmp Runtime
