@@ -1,6 +1,7 @@
-#+title:      template
+#+title:      Compiler
 #+date:       <2024-03-08 fr.>
 #+OPTIONS: author:nil
+#+STARTUP: inlineimages
 
 #+hugo_base_dir: ~/Dokumenter/cicl-hugo
 #+hugo_selection: posts
@@ -28,7 +29,7 @@ accomplished, subject to approved by Dr Strand.
 
 * Structure
 
-[[../../static/images/Structure.svg][Structure]]
+[[../../static/images/Structure.svg]]
 * Optimization
 ** The IR language
 ** peephole optimizations

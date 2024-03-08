@@ -1,5 +1,5 @@
 ---
-title: "template"
+title: "Compiler"
 date: 2024-03-08T00:00:00+01:00
 draft: false
 ---
@@ -31,7 +31,7 @@ accomplished, subject to approved by Dr Strand.
 
 ## Structure {#structure}
 
-[Structure](/images/Structure.svg)
+{{< figure src="/images/Structure.svg" >}}
 
 
 ## Optimization {#optimization}
