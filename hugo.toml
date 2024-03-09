@@ -2,5 +2,5 @@ baseURL = '//jthing.github.io/cicl-hugo/'
 languageCode = 'en-us'
 relativeURLs = true
 staticDir='static'
-title = 'CICL Compiler'
+title = 'SICL Compiler'
 theme = 'holy'

@@ -107,5 +107,5 @@ the expression being evaluated.
 # eval: (org-hugo-auto-export-mode t)
 # End:
 
-#  LocalWords:  inlining typecheck SBCL svg jmp Runtime invariants progv setq prog
+#  LocalWords:  inlining typecheck  svg jmp Runtime invariants progv setq prog
 #  LocalWords:  macrolet tagbody eval SICL
