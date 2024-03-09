@@ -1,15 +1,12 @@
 ---
 title: "Compiler"
-date: 2024-03-08T00:00:00+01:00
+date: 2024-03-09T00:00:00+01:00
 draft: false
 ---
 
 ## preliminary draft for compiler design {#preliminary-draft-for-compiler-design}
 
-
-### scope {#scope}
-
-This is a continuation of Stands CICL (Compiler in Common
+This is a continuation of Stands SICL (SICL implements Common
 Lisp). Although most of the compiler can itself be written in Common
 Lisp  to be a compliant Compiler it must eventually compile  to
 machine code. Today this is done by the SBCL compiler. To make the
@@ -17,8 +14,8 @@ compiler work standalone this will need to be implemented and thus I have drafte
 proposal. It is criteria that the compiler need to be fast and good. A speed
 goal for the generated code would be to be within a factor of 3 of a C compiler. The
 compiler itself must compile fast similarly to the SBCL compiler today or
-better. This is a preliminary draft of my ideas of how this can be
-accomplished, subject to approved by Dr Strand.
+better. As SICL itself it is written in Common lisp.This is a preliminary draft of my
+ideas of how this can be accomplished, subject to approved by Dr Strand.
 
 
 ## The 26 special forms of common lisp {#the-26-special-forms-of-common-lisp}

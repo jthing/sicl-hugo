@@ -6,21 +6,21 @@
     <description>Recent content in Posts on CICL Compiler</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Mar 2024 10:28:24 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 09 Mar 2024 00:00:00 +0100</lastBuildDate>
     <atom:link href="//jthing.github.io/cicl-hugo/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Compiler</title>
+      <link>//jthing.github.io/cicl-hugo/posts/compiler/</link>
+      <pubDate>Sat, 09 Mar 2024 00:00:00 +0100</pubDate>
+      <guid>//jthing.github.io/cicl-hugo/posts/compiler/</guid>
+      <description>preliminary draft for compiler design This is a continuation of Stands SICL (SICL implements Common Lisp). Although most of the compiler can itself be written in Common Lisp to be a compliant Compiler it must eventually compile to machine code. Today this is done by the SBCL compiler. To make the compiler work standalone this will need to be implemented and thus I have drafted this proposal. It is criteria that the compiler need to be fast and good.</description>
+    </item>
     <item>
       <title>My First Post</title>
       <link>//jthing.github.io/cicl-hugo/posts/my-first-post/</link>
       <pubDate>Fri, 08 Mar 2024 10:28:24 +0100</pubDate>
       <guid>//jthing.github.io/cicl-hugo/posts/my-first-post/</guid>
       <description>CICL compiler This is a blog to describe on-going developement of the CICL compiler. It&amp;rsquo;s goal is to convey ideas and research to fellow developers. It is NOT intended as veicle for sharing life experiences so if you are looking for that go elsewhere.&#xA;John aka younder&#xA;Visit the Hugo websize!</description>
-    </item>
-    <item>
-      <title>Compiler</title>
-      <link>//jthing.github.io/cicl-hugo/posts/compiler/</link>
-      <pubDate>Fri, 08 Mar 2024 00:00:00 +0100</pubDate>
-      <guid>//jthing.github.io/cicl-hugo/posts/compiler/</guid>
-      <description>preliminary draft for compiler design scope This is a continuation of Stands CICL (Compiler in Common Lisp). Although most of the compiler can itself be written in Common Lisp to be a compliant Compiler it must eventually compile to machine code. Today this is done by the SBCL compiler. To make the compiler work standalone this will need to be implemented and thus I have drafted this proposal. It is criteria that the compiler need to be fast and good.</description>
     </item>
   </channel>
 </rss>
