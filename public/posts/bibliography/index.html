@@ -8,8 +8,7 @@
 
     
     
-    <meta name="description" content="Bibliography @book{allenOptimizingCompilersModern2001, title = {Optimizing Compilers for Modern Architectures: A Dependence-Based Approach}, shorttitle = {Optimizing Compilers for Modern Architectures}, author = {Allen, Randy and Kennedy, Ken}, date = {2001}, edition = {1st ed}, publisher = {{Morgan Kaufmann Publishers}}, location = {{San Francisco}}, isbn = {978-1-55860-286-1}, pagetotal = {790}, keywords = {Computer architecture,Optimizing compilers} }
-@article{appelSSAFunctionalProgramming1998, title = {{{SSA}} Is Functional Programming}, author = {Appel, Andrew W.}, date = {1998-04}, journaltitle = {ACM SIGPLAN Notices}, shortjournal = {SIGPLAN Not." />
+    <meta name="description" content="Bibliography @book{allenOptimizingCompilersModern2001, title = {Optimizing Compilers for Modern Architectures: A Dependence-Based Approach}, shorttitle = {Optimizing Compilers for Modern Architectures}, author = {Allen, Randy and Kennedy, Ken}, date = {2001}, edition = {1st ed}, publisher = {{Morgan Kaufmann Publishers}}, location = {{San Francisco}}, isbn = {978-1-55860-286-1}, pagetotal = {790}, keywords = {Computer architecture,Optimizing compilers} } @article{appelSSAFunctionalProgramming1998, title = {{{SSA}} Is Functional Programming}, author = {Appel, Andrew W.}, date = {1998-04}, journaltitle = {ACM SIGPLAN Notices}, shortjournal = {SIGPLAN Not." />
     <meta name="author" content="" />
     
 
@@ -97,177 +96,193 @@
     _:where(a,mark){text-underline-offset:3}
     _:where(hr){h:2;_bg:fade-10;_bg:fade-70@dark;_my:3em}
 "><h2 id="bibliography">Bibliography</h2>
-<p>@book{allenOptimizingCompilersModern2001,
-title = {Optimizing Compilers for Modern Architectures: A Dependence-Based Approach},
-shorttitle = {Optimizing Compilers for Modern Architectures},
-author = {Allen, Randy and Kennedy, Ken},
-date = {2001},
-edition = {1st ed},
-publisher = {{Morgan Kaufmann Publishers}},
-location = {{San Francisco}},
-isbn = {978-1-55860-286-1},
-pagetotal = {790},
-keywords = {Computer architecture,Optimizing compilers}
-}</p>
-<p>@article{appelSSAFunctionalProgramming1998,
-title = {{{SSA}} Is Functional Programming},
-author = {Appel, Andrew W.},
-date = {1998-04},
-journaltitle = {ACM SIGPLAN Notices},
-shortjournal = {SIGPLAN Not.},
-volume = {33},
-number = {4},
-pages = {17&ndash;20},
-issn = {0362-1340, 1558-1160},
-doi = {10.1145/278283.278285},
-url = {<a href="https://dl.acm.org/doi/10.1145/278283.278285">https://dl.acm.org/doi/10.1145/278283.278285</a>},
-urldate = {2024-03-09},
-langid = {english},
-file = {/home/john/Zotero/storage/RNTL2HK5/Appel - 1998 - SSA is functional programming.pdf}
-}</p>
-<p>@book{biereHandbookSatisfiability2009,
-title = {Handbook of Satisfiability},
-editor = {Biere, Armin},
-date = {2009},
-series = {Frontiers in Artificial Intelligence and Applications},
-number = {v. 185},
-publisher = {{IOS Press}},
-location = {{Amsterdam, The Netherlands ; Washington, DC}},
-isbn = {978-1-58603-929-5},
-pagetotal = {966},
-keywords = {Algebra Boolean,Algorithmus,Anwendung,Berechnungskomplexität,Computer algorithms,Congresses,Decision making,Erfüllbarkeitsproblem,Propositional calculus},
-annotation = {OCLC: ocn290492523}
-}</p>
-<p>@article{clickSimpleGraphBasedIntermediate,
-title = {A {{Simple Graph-Based Intermediate Representation}}},
-author = {Click, Cliff and Paleczny, Michael},
-abstract = {We present a graph-based intermediate representation (IR) with simple semantics and a low-memory-cost C++ implementation. The IR uses a directed graph with labeled vertices and ordered inputs but unordered outputs. Vertices are labeled with opcodes, edges are unlabeled. We represent the CFG and basic blocks with the same vertex and edge structures. Each opcode is defined by a C++ class that encapsulates opcode-specific data and behavior. We use inheritance to abstract common opcode behavior, allowing new opcodes to be easily defined from old ones. The resulting IR is simple, fast and easy to use.},
-langid = {english},
-file = {/home/john/Zotero/storage/685NSKUM/Click og Paleczny - A Simple Graph-Based Intermediate Representation.pdf}
-}</p>
-<p>@inreference{ContinuationpassingStyle2023,
-title = {Continuation-Passing Style},
-booktitle = {Wikipedia},
-date = {2023-11-02T15:32:49Z},
-url = {<a href="https://en.wikipedia.org/w/index.php?title=Continuation-passing_style&amp;oldid=1183163457">https://en.wikipedia.org/w/index.php?title=Continuation-passing_style&amp;oldid=1183163457</a>},
-urldate = {2024-03-03},
-abstract = {In functional programming, continuation-passing style (CPS) is a style of programming in which control is passed explicitly in the form of a continuation. This is contrasted with direct style, which is the usual style of programming. Gerald Jay Sussman and Guy L. Steele, Jr. coined the phrase in AI Memo 349 (1975), which sets out the first version of the Scheme programming language.John C. Reynolds gives a detailed account of the numerous discoveries of continuations.A function written in continuation-passing style takes an extra argument: an explicit &ldquo;continuation&rdquo;; i.e., a function of one argument.  When the CPS function has computed its result value, it &ldquo;returns&rdquo; it by calling the continuation function with this value as the argument. That means that when invoking a CPS function, the calling function is required to supply a procedure to be invoked with the subroutine&rsquo;s &ldquo;return&rdquo; value.  Expressing code in this form makes a number of things explicit which are implicit in direct style.  These include: procedure returns, which become apparent as calls to a continuation; intermediate values, which are all given names; order of argument evaluation, which is made explicit; and tail calls, which simply call a procedure with the same continuation, unmodified, that was passed to the caller. Programs can be automatically transformed from direct style to CPS. Functional and logic compilers often use CPS as an intermediate representation where a compiler for an imperative or procedural programming language would use static single assignment form (SSA). SSA is formally equivalent to a subset of CPS (excluding non-local control flow, which does not occur when CPS is used as intermediate representation). Functional compilers can also use A-normal form (ANF) (but only for languages requiring eager evaluation), rather than with &rsquo;thunks&rsquo; (described in the examples below) in CPS.  CPS is used more frequently by compilers than by programmers as a local or global style.},
-langid = {english},
-annotation = {Page Version ID: 1183163457},
-file = {/home/john/Zotero/storage/44YKD49Q/Continuation-passing_style.html}
-}</p>
-<p>@video{CrashCourseModern,
-entrysubtype = {video},
-title = {A Crash Course in Modern Hardware by Cliff Click},
-url = {<a href="https://www.youtube.com/watch?v=OFgxAFdxYAQ">https://www.youtube.com/watch?v=OFgxAFdxYAQ</a>},
-urldate = {2024-02-26},
-abstract = {I walk through a tiny performance example on a modern out-of-order CPU, and basically show that (1) single-threaded performance is tapped out, (2) all the ac&hellip;},
-langid = {norwegianbokmal},
-file = {/home/john/Zotero/storage/72W3PQHJ/watch.html}
-}</p>
-<p>@article{durandRemovingRedundantTests,
-title = {Removing Redundant Tests by Replicating Control Paths},
-author = {Durand, Irène and Strandh, Robert},
-abstract = {We describe a technique for removing redundant tests in intermediate code by replicating the control paths between two identical tests, the second of which is dominated by the first. The two replicas encode different outcomes of the test, making it possible to remove the second of the two. Our technique uses local graph rewriting, making its correctness easy to prove. We also present a proof that the rewriting always terminates. This technique can be used to eliminate multiple tests that occur naturally such as the test for consness when both car and cdr are applied to the same object, but we also show how this technique can be used to automatically create specialized versions of general code, for example in order to create fast specialized versions of sequence functions such as find depending on the type of the sequence and the values of the keyword arguments supplied.},
-langid = {english},
-file = {/home/john/Zotero/storage/G6RUD3V3/Durand og Strandh - Removing redundant tests by replicating control pa.pdf}
-}</p>
-<p>@book{hennessyComputerArchitectureQuantitative2012,
-title = {Computer Architecture: A Quantitative Approach},
-shorttitle = {Computer Architecture},
-author = {Hennessy, John L. and Patterson, David A. and Asanović, Krste},
-date = {2012},
-edition = {5. ed},
-publisher = {{Elsevier, Morgan Kaufmann}},
-location = {{Amsterdam Heidelberg}},
-isbn = {978-0-12-383872-8 978-93-81269-22-0},
-langid = {english},
-file = {/home/john/Zotero/storage/6UVS69MQ/Hennessy et al. - 2012 - Computer architecture a quantitative approach.pdf}
-}</p>
-<p>@book{jonesGarbageCollectionAlgorithms2007,
-title = {Garbage Collection: Algorithms for Automatic Dynamic Memory Management},
-shorttitle = {Garbage Collection},
-author = {Jones, Richard and Lins, Rafael},
-date = {2007},
-edition = {Reprinted October 2007},
-publisher = {{Wiley}},
-location = {{Chichester}},
-isbn = {978-0-471-94148-4},
-langid = {english},
-pagetotal = {379}
-}</p>
-<p>@article{kelseyCorrespondenceContinuationPassing,
-title = {A {{Correspondence}} between {{Continuation Passing Style}} and {{Static Single Assignment Form}}},
-author = {Kelsey, Richard A},
-langid = {english},
-file = {/home/john/Zotero/storage/I24WPJWX/Kelsey - A Correspondence between Continuation Passing Styl.pdf}
-}</p>
-<p>@book{khedkerDataFlowAnalysis2009,
-title = {Data Flow Analysis: Theory and Practice},
-shorttitle = {Data Flow Analysis},
-author = {Khedker, Uday and Sanyal, Amitabha and Karkare, Bageshri},
-date = {2009},
-publisher = {{CRC Press/Taylor \&amp; Francis}},
-location = {{Boca Raton, FL}},
-isbn = {978-0-8493-2880-0},
-pagetotal = {386},
-keywords = {Compilers (Computer programs),Computer software,Data flow computing,Software engineering,Verification},
-annotation = {OCLC: ocn300030552}
-}</p>
-<p>@book{pierceAdvancedTopicsTypes2005,
-title = {Advanced Topics in Types and Programming Languages},
-editor = {Pierce, Benjamin C.},
-date = {2005},
-publisher = {{MIT Press}},
-location = {{Cambridge, Mass.}},
-abstract = {Substructural type systems / David Walker &ndash; Dependent types / David Aspinall and Martin Hofmann &ndash; Effect types and region-based memory management / Fritz Henglein, Henning Makholm, and Henning Niss &ndash; Typed assembly language / Greg Morrisett &ndash; Proof-carrying code / George Necula &ndash; Logical relations and a case study in equivalence checking / Karl Crary &ndash; Typed operational reasoning / Andrew Pitts &ndash; Design considerations for ML-style module systems / Robert Harper and Benjamin C. Pierce &ndash; Type definitions / Christopher A. Stone &ndash; The essence of ML type inference / Fran(c)ʹois Pottier and Didier R(c)♭my.y},
-isbn = {978-0-262-16228-9},
-langid = {english},
-pagetotal = {574},
-file = {/home/john/Zotero/storage/MMH8AGBM/Pierce - 2005 - Advanced topics in types and programming languages.pdf}
-}</p>
-<p>@book{pierceTypesProgrammingLanguages2002,
-title = {Types and Programming Languages},
-author = {Pierce, Benjamin C.},
-date = {2002},
-publisher = {{MIT Press}},
-location = {{Cambridge, Mass}},
-isbn = {978-0-262-16209-8},
-pagetotal = {623},
-keywords = {Programming languages (Electronic computers)}
-}</p>
-<p>@book{queinnecLispSmallPieces2003,
-title = {Lisp in Small Pieces},
-author = {Queinnec, Christian and Callaway, Kathleen and Queinnec, Christian and Queinnec, Christian},
-date = {2003},
-edition = {1. paperback ed},
-publisher = {{Cambridge Univ. Press}},
-location = {{Cambridge}},
-isbn = {978-0-521-54566-2 978-0-521-56247-8},
-langid = {english},
-pagetotal = {514}
-}</p>
-<p>@online{RegisterAllocationAlgorithms2020,
-title = {Register {{Allocation Algorithms}} in {{Compiler Design}}},
-date = {2020-12-25T11:23:23+00:00},
-url = {<a href="https://www.geeksforgeeks.org/register-allocation-algorithms-in-compiler-design/">https://www.geeksforgeeks.org/register-allocation-algorithms-in-compiler-design/</a>},
-urldate = {2024-03-03},
-abstract = {A Computer Science portal for geeks. It contains well written, well thought and well explained computer science and programming articles, quizzes and practice/competitive programming/company interview Questions.},
-langid = {american},
-organization = {{GeeksforGeeks}},
-file = {/home/john/Zotero/storage/CZH6EUFP/register-allocation-algorithms-in-compiler-design.html}
-}</p>
-<p>@book{warrenHackerDelight2003,
-title = {Hacker&rsquo;s Delight},
-author = {Warren, Henry S.},
-date = {2003},
-publisher = {{Addison-Wesley}},
-location = {{Boston}},
-isbn = {978-0-201-91465-8},
-pagetotal = {306},
-keywords = {Computer programming}
-}</p>
-</div></article>
+<pre tabindex="0"><code class="language-picture-mode" data-lang="picture-mode">
+@book{allenOptimizingCompilersModern2001,
+  title = {Optimizing Compilers for Modern Architectures: A Dependence-Based Approach},
+  shorttitle = {Optimizing Compilers for Modern Architectures},
+  author = {Allen, Randy and Kennedy, Ken},
+  date = {2001},
+  edition = {1st ed},
+  publisher = {{Morgan Kaufmann Publishers}},
+  location = {{San Francisco}},
+  isbn = {978-1-55860-286-1},
+  pagetotal = {790},
+  keywords = {Computer architecture,Optimizing compilers}
+}
+
+@article{appelSSAFunctionalProgramming1998,
+  title = {{{SSA}} Is Functional Programming},
+  author = {Appel, Andrew W.},
+  date = {1998-04},
+  journaltitle = {ACM SIGPLAN Notices},
+  shortjournal = {SIGPLAN Not.},
+  volume = {33},
+  number = {4},
+  pages = {17--20},
+  issn = {0362-1340, 1558-1160},
+  doi = {10.1145/278283.278285},
+  url = {https://dl.acm.org/doi/10.1145/278283.278285},
+  urldate = {2024-03-09},
+  langid = {english},
+  file = {/home/john/Zotero/storage/RNTL2HK5/Appel - 1998 - SSA is functional programming.pdf}
+}
+
+@book{biereHandbookSatisfiability2009,
+  title = {Handbook of Satisfiability},
+  editor = {Biere, Armin},
+  date = {2009},
+  series = {Frontiers in Artificial Intelligence and Applications},
+  number = {v. 185},
+  publisher = {{IOS Press}},
+  location = {{Amsterdam, The Netherlands ; Washington, DC}},
+  isbn = {978-1-58603-929-5},
+  pagetotal = {966},
+  keywords = {Algebra Boolean,Algorithmus,Anwendung,Berechnungskomplexität,Computer algorithms,Congresses,Decision making,Erfüllbarkeitsproblem,Propositional calculus},
+  annotation = {OCLC: ocn290492523}
+}
+
+@article{clickSimpleGraphBasedIntermediate,
+  title = {A {{Simple Graph-Based Intermediate Representation}}},
+  author = {Click, Cliff and Paleczny, Michael},
+  abstract = {We present a graph-based intermediate representation (IR) with simple semantics and a low-memory-cost C++ implementation. The IR uses a directed graph with labeled vertices and ordered inputs but unordered outputs. Vertices are labeled with opcodes, edges are unlabeled. We represent the CFG and basic blocks with the same vertex and edge structures. Each opcode is defined by a C++ class that encapsulates opcode-specific data and behavior. We use inheritance to abstract common opcode behavior, allowing new opcodes to be easily defined from old ones. The resulting IR is simple, fast and easy to use.},
+  langid = {english},
+  file = {/home/john/Zotero/storage/685NSKUM/Click og Paleczny - A Simple Graph-Based Intermediate Representation.pdf}
+}
+
+@inreference{ContinuationpassingStyle2023,
+  title = {Continuation-Passing Style},
+  booktitle = {Wikipedia},
+  date = {2023-11-02T15:32:49Z},
+  url = {https://en.wikipedia.org/w/index.php?title=Continuation-passing_style&amp;oldid=1183163457},
+  urldate = {2024-03-03},
+  abstract = {In functional programming, continuation-passing style (CPS) is a style of programming in which control is passed explicitly in the form of a continuation. This is contrasted with direct style, which is the usual style of programming. Gerald Jay Sussman and Guy L. Steele, Jr. coined the phrase in AI Memo 349 (1975), which sets out the first version of the Scheme programming language.John C. Reynolds gives a detailed account of the numerous discoveries of continuations.A function written in continuation-passing style takes an extra argument: an explicit &#34;continuation&#34;; i.e., a function of one argument.  When the CPS function has computed its result value, it &#34;returns&#34; it by calling the continuation function with this value as the argument. That means that when invoking a CPS function, the calling function is required to supply a procedure to be invoked with the subroutine&#39;s &#34;return&#34; value.  Expressing code in this form makes a number of things explicit which are implicit in direct style.  These include: procedure returns, which become apparent as calls to a continuation; intermediate values, which are all given names; order of argument evaluation, which is made explicit; and tail calls, which simply call a procedure with the same continuation, unmodified, that was passed to the caller. Programs can be automatically transformed from direct style to CPS. Functional and logic compilers often use CPS as an intermediate representation where a compiler for an imperative or procedural programming language would use static single assignment form (SSA). SSA is formally equivalent to a subset of CPS (excluding non-local control flow, which does not occur when CPS is used as intermediate representation). Functional compilers can also use A-normal form (ANF) (but only for languages requiring eager evaluation), rather than with &#39;thunks&#39; (described in the examples below) in CPS.  CPS is used more frequently by compilers than by programmers as a local or global style.},
+  langid = {english},
+  annotation = {Page Version ID: 1183163457},
+  file = {/home/john/Zotero/storage/44YKD49Q/Continuation-passing_style.html}
+}
+
+@video{CrashCourseModern,
+  entrysubtype = {video},
+  title = {A Crash Course in Modern Hardware by Cliff Click},
+  url = {https://www.youtube.com/watch?v=OFgxAFdxYAQ},
+  urldate = {2024-02-26},
+  abstract = {I walk through a tiny performance example on a modern out-of-order CPU, and basically show that (1) single-threaded performance is tapped out, (2) all the ac...},
+  langid = {norwegianbokmal},
+  file = {/home/john/Zotero/storage/72W3PQHJ/watch.html}
+}
+
+@article{durandRemovingRedundantTests,
+  title = {Removing Redundant Tests by Replicating Control Paths},
+  author = {Durand, Irène and Strandh, Robert},
+  abstract = {We describe a technique for removing redundant tests in intermediate code by replicating the control paths between two identical tests, the second of which is dominated by the first. The two replicas encode different outcomes of the test, making it possible to remove the second of the two. Our technique uses local graph rewriting, making its correctness easy to prove. We also present a proof that the rewriting always terminates. This technique can be used to eliminate multiple tests that occur naturally such as the test for consness when both car and cdr are applied to the same object, but we also show how this technique can be used to automatically create specialized versions of general code, for example in order to create fast specialized versions of sequence functions such as find depending on the type of the sequence and the values of the keyword arguments supplied.},
+  langid = {english},
+  file = {/home/john/Zotero/storage/G6RUD3V3/Durand og Strandh - Removing redundant tests by replicating control pa.pdf}
+}
+
+@book{hennessyComputerArchitectureQuantitative2012,
+  title = {Computer Architecture: A Quantitative Approach},
+  shorttitle = {Computer Architecture},
+  author = {Hennessy, John L. and Patterson, David A. and Asanović, Krste},
+  date = {2012},
+  edition = {5. ed},
+  publisher = {{Elsevier, Morgan Kaufmann}},
+  location = {{Amsterdam Heidelberg}},
+  isbn = {978-0-12-383872-8 978-93-81269-22-0},
+  langid = {english},
+  file = {/home/john/Zotero/storage/6UVS69MQ/Hennessy et al. - 2012 - Computer architecture a quantitative approach.pdf}
+}
+
+@book{jonesGarbageCollectionAlgorithms2007,
+  title = {Garbage Collection: Algorithms for Automatic Dynamic Memory Management},
+  shorttitle = {Garbage Collection},
+  author = {Jones, Richard and Lins, Rafael},
+  date = {2007},
+  edition = {Reprinted October 2007},
+  publisher = {{Wiley}},
+  location = {{Chichester}},
+  isbn = {978-0-471-94148-4},
+  langid = {english},
+  pagetotal = {379}
+}
+
+@article{kelseyCorrespondenceContinuationPassing,
+  title = {A {{Correspondence}} between {{Continuation Passing Style}} and {{Static Single Assignment Form}}},
+  author = {Kelsey, Richard A},
+  langid = {english},
+  file = {/home/john/Zotero/storage/I24WPJWX/Kelsey - A Correspondence between Continuation Passing Styl.pdf}
+}
+
+@book{khedkerDataFlowAnalysis2009,
+  title = {Data Flow Analysis: Theory and Practice},
+  shorttitle = {Data Flow Analysis},
+  author = {Khedker, Uday and Sanyal, Amitabha and Karkare, Bageshri},
+  date = {2009},
+  publisher = {{CRC Press/Taylor \&amp; Francis}},
+  location = {{Boca Raton, FL}},
+  isbn = {978-0-8493-2880-0},
+  pagetotal = {386},
+  keywords = {Compilers (Computer programs),Computer software,Data flow computing,Software engineering,Verification},
+  annotation = {OCLC: ocn300030552}
+}
+
+@book{pierceAdvancedTopicsTypes2005,
+  title = {Advanced Topics in Types and Programming Languages},
+  editor = {Pierce, Benjamin C.},
+  date = {2005},
+  publisher = {{MIT Press}},
+  location = {{Cambridge, Mass.}},
+  abstract = {Substructural type systems / David Walker -- Dependent types / David Aspinall and Martin Hofmann -- Effect types and region-based memory management / Fritz Henglein, Henning Makholm, and Henning Niss -- Typed assembly language / Greg Morrisett -- Proof-carrying code / George Necula -- Logical relations and a case study in equivalence checking / Karl Crary -- Typed operational reasoning / Andrew Pitts -- Design considerations for ML-style module systems / Robert Harper and Benjamin C. Pierce -- Type definitions / Christopher A. Stone -- The essence of ML type inference / Fran(c)ʹois Pottier and Didier R(c)♭my.y},
+  isbn = {978-0-262-16228-9},
+  langid = {english},
+  pagetotal = {574},
+  file = {/home/john/Zotero/storage/MMH8AGBM/Pierce - 2005 - Advanced topics in types and programming languages.pdf}
+}
+
+@book{pierceTypesProgrammingLanguages2002,
+  title = {Types and Programming Languages},
+  author = {Pierce, Benjamin C.},
+  date = {2002},
+  publisher = {{MIT Press}},
+  location = {{Cambridge, Mass}},
+  isbn = {978-0-262-16209-8},
+  pagetotal = {623},
+  keywords = {Programming languages (Electronic computers)}
+}
+
+@book{queinnecLispSmallPieces2003,
+  title = {Lisp in Small Pieces},
+  author = {Queinnec, Christian and Callaway, Kathleen and Queinnec, Christian and Queinnec, Christian},
+  date = {2003},
+  edition = {1. paperback ed},
+  publisher = {{Cambridge Univ. Press}},
+  location = {{Cambridge}},
+  isbn = {978-0-521-54566-2 978-0-521-56247-8},
+  langid = {english},
+  pagetotal = {514}
+}
+
+@online{RegisterAllocationAlgorithms2020,
+  title = {Register {{Allocation Algorithms}} in {{Compiler Design}}},
+  date = {2020-12-25T11:23:23+00:00},
+  url = {https://www.geeksforgeeks.org/register-allocation-algorithms-in-compiler-design/},
+  urldate = {2024-03-03},
+  abstract = {A Computer Science portal for geeks. It contains well written, well thought and well explained computer science and programming articles, quizzes and practice/competitive programming/company interview Questions.},
+  langid = {american},
+  organization = {{GeeksforGeeks}},
+  file = {/home/john/Zotero/storage/CZH6EUFP/register-allocation-algorithms-in-compiler-design.html}
+}
+
+@book{warrenHackerDelight2003,
+  title = {Hacker&#39;s Delight},
+  author = {Warren, Henry S.},
+  date = {2003},
+  publisher = {{Addison-Wesley}},
+  location = {{Boston}},
+  isbn = {978-0-201-91465-8},
+  pagetotal = {306},
+  keywords = {Computer programming}
+}
+</code></pre></div></article>
 <footer class="py:24">
     <div class="f:fade-30 f:14 mb:8"></div>
     <div class="f:fade-60 f:12">Theme <a class="f:bold" href="https://github.com/serkodev/holy" _target="_blank">Holy</a></div>

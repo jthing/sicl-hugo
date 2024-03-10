@@ -6,6 +6,8 @@ draft: false
 
 ## Bibliography {#bibliography}
 
+```picture-mode
+
 @book{allenOptimizingCompilersModern2001,
   title = {Optimizing Compilers for Modern Architectures: A Dependence-Based Approach},
   shorttitle = {Optimizing Compilers for Modern Architectures},
@@ -30,7 +32,7 @@ draft: false
   pages = {17--20},
   issn = {0362-1340, 1558-1160},
   doi = {10.1145/278283.278285},
-  url = {<https://dl.acm.org/doi/10.1145/278283.278285>},
+  url = {https://dl.acm.org/doi/10.1145/278283.278285},
   urldate = {2024-03-09},
   langid = {english},
   file = {/home/john/Zotero/storage/RNTL2HK5/Appel - 1998 - SSA is functional programming.pdf}
@@ -62,7 +64,7 @@ draft: false
   title = {Continuation-Passing Style},
   booktitle = {Wikipedia},
   date = {2023-11-02T15:32:49Z},
-  url = {<https://en.wikipedia.org/w/index.php?title=Continuation-passing_style&oldid=1183163457>},
+  url = {https://en.wikipedia.org/w/index.php?title=Continuation-passing_style&oldid=1183163457},
   urldate = {2024-03-03},
   abstract = {In functional programming, continuation-passing style (CPS) is a style of programming in which control is passed explicitly in the form of a continuation. This is contrasted with direct style, which is the usual style of programming. Gerald Jay Sussman and Guy L. Steele, Jr. coined the phrase in AI Memo 349 (1975), which sets out the first version of the Scheme programming language.John C. Reynolds gives a detailed account of the numerous discoveries of continuations.A function written in continuation-passing style takes an extra argument: an explicit "continuation"; i.e., a function of one argument.  When the CPS function has computed its result value, it "returns" it by calling the continuation function with this value as the argument. That means that when invoking a CPS function, the calling function is required to supply a procedure to be invoked with the subroutine's "return" value.  Expressing code in this form makes a number of things explicit which are implicit in direct style.  These include: procedure returns, which become apparent as calls to a continuation; intermediate values, which are all given names; order of argument evaluation, which is made explicit; and tail calls, which simply call a procedure with the same continuation, unmodified, that was passed to the caller. Programs can be automatically transformed from direct style to CPS. Functional and logic compilers often use CPS as an intermediate representation where a compiler for an imperative or procedural programming language would use static single assignment form (SSA). SSA is formally equivalent to a subset of CPS (excluding non-local control flow, which does not occur when CPS is used as intermediate representation). Functional compilers can also use A-normal form (ANF) (but only for languages requiring eager evaluation), rather than with 'thunks' (described in the examples below) in CPS.  CPS is used more frequently by compilers than by programmers as a local or global style.},
   langid = {english},
@@ -73,7 +75,7 @@ draft: false
 @video{CrashCourseModern,
   entrysubtype = {video},
   title = {A Crash Course in Modern Hardware by Cliff Click},
-  url = {<https://www.youtube.com/watch?v=OFgxAFdxYAQ>},
+  url = {https://www.youtube.com/watch?v=OFgxAFdxYAQ},
   urldate = {2024-02-26},
   abstract = {I walk through a tiny performance example on a modern out-of-order CPU, and basically show that (1) single-threaded performance is tapped out, (2) all the ac...},
   langid = {norwegianbokmal},
@@ -126,7 +128,7 @@ draft: false
   shorttitle = {Data Flow Analysis},
   author = {Khedker, Uday and Sanyal, Amitabha and Karkare, Bageshri},
   date = {2009},
-  publisher = {{CRC Press/Taylor \\&amp; Francis}},
+  publisher = {{CRC Press/Taylor \& Francis}},
   location = {{Boca Raton, FL}},
   isbn = {978-0-8493-2880-0},
   pagetotal = {386},
@@ -173,7 +175,7 @@ draft: false
 @online{RegisterAllocationAlgorithms2020,
   title = {Register {{Allocation Algorithms}} in {{Compiler Design}}},
   date = {2020-12-25T11:23:23+00:00},
-  url = {<https://www.geeksforgeeks.org/register-allocation-algorithms-in-compiler-design/>},
+  url = {https://www.geeksforgeeks.org/register-allocation-algorithms-in-compiler-design/},
   urldate = {2024-03-03},
   abstract = {A Computer Science portal for geeks. It contains well written, well thought and well explained computer science and programming articles, quizzes and practice/competitive programming/company interview Questions.},
   langid = {american},
@@ -191,3 +193,5 @@ draft: false
   pagetotal = {306},
   keywords = {Computer programming}
 }
+
+```
