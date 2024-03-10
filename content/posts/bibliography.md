@@ -38,6 +38,21 @@ draft: false
   file = {/home/john/Zotero/storage/RNTL2HK5/Appel - 1998 - SSA is functional programming.pdf}
 }
 
+@book{barendregtLambdaCalculusIts1984,
+  title = {The Lambda Calculus: Its Syntax and Semantics},
+  shorttitle = {The Lambda Calculus},
+  author = {Barendregt, H. P.},
+  date = {1984},
+  series = {Studies in Logic and the Foundations of Mathematics},
+  edition = {Rev. ed},
+  number = {v. 103},
+  publisher = {{North-Holland ; Sole distributors for the U.S.A. and Canada, Elsevier Science Pub. Co}},
+  location = {{Amsterdam ; New York : New York, N.Y}},
+  isbn = {978-0-444-86748-3 978-0-444-87508-2},
+  pagetotal = {621},
+  keywords = {Lambda calculus}
+}
+
 @book{biereHandbookSatisfiability2009,
   title = {Handbook of Satisfiability},
   editor = {Biere, Armin},
@@ -90,6 +105,14 @@ draft: false
   file = {/home/john/Zotero/storage/G6RUD3V3/Durand og Strandh - Removing redundant tests by replicating control pa.pdf}
 }
 
+@article{flanaganEssenceCompilingContinuations,
+  title = {The {{Essence}} of {{Compiling}} with {{Continuations}}},
+  author = {Flanagan, Cormac and Sabry, Amr and Duba, Bruce F and Felleisen, Matthias},
+  abstract = {In order to simplify the compilation process, many compilers for higher-order languages use the continuationpassing style (CPS) transformation in a rst phase to generate an intermediate representation of the source program. The salient aspect of this intermediate form is that all procedures take an argument that represents the rest of the computation (the \textbackslash continuation"). Since the na ve CPS transformation considerably increases the size of programs, CPS compilers perform reductions to produce a more compact intermediate representation. Although often implemented as a part of the CPS transformation, this step is conceptually a second phase. Finally, code generators for typical CPS compilers treat continuations specially in order to optimize the interpretation of continuation parameters.},
+  langid = {english},
+  file = {/home/john/Zotero/storage/69GCBY46/Flanagan et al. - The Essence of Compiling with Continuations.pdf}
+}
+
 @book{hennessyComputerArchitectureQuantitative2012,
   title = {Computer Architecture: A Quantitative Approach},
   shorttitle = {Computer Architecture},
@@ -101,6 +124,20 @@ draft: false
   isbn = {978-0-12-383872-8 978-93-81269-22-0},
   langid = {english},
   file = {/home/john/Zotero/storage/6UVS69MQ/Hennessy et al. - 2012 - Computer architecture a quantitative approach.pdf}
+}
+
+@book{jacobsCategoricalLogicType1999,
+  title = {Categorical Logic and Type Theory},
+  author = {Jacobs, Bart},
+  date = {1999},
+  series = {Studies in Logic and the Foundations of Mathematics},
+  edition = {1st ed},
+  number = {v. 141},
+  publisher = {{Elsevier Science}},
+  location = {{Amsterdam ; New York}},
+  isbn = {978-0-444-50170-7},
+  pagetotal = {760},
+  keywords = {Categories (Mathematics),Type theory}
 }
 
 @book{jonesGarbageCollectionAlgorithms2007,
