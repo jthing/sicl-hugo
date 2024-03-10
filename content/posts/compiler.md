@@ -6,7 +6,7 @@ draft: false
 
 ## preliminary draft for compiler design {#preliminary-draft-for-compiler-design}
 
-This is a continuation of Stands SICL (SICL implements Common
+This is a continuation of Strands SICL (SICL implements Common
 Lisp). Although most of the compiler can itself be written in Common
 Lisp  to be a compliant Compiler it must eventually compile  to
 machine code. Today this is done by the SBCL compiler. To make the
@@ -15,7 +15,7 @@ proposal. It is criteria that the compiler need to be fast and good. A speed
 goal for the generated code would be to be within a factor of 3 of a C compiler. The
 compiler itself must compile fast similarly to the SBCL compiler today or
 better. As SICL itself it is written in Common lisp.This is a preliminary draft of my
-ideas of how this can be accomplished, subject to approved by Dr Strand.
+ideas of how this can be accomplished, subject approval by Dr Strand.
 
 
 ## The 26 special forms of common lisp {#the-26-special-forms-of-common-lisp}
