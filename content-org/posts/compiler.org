@@ -36,6 +36,9 @@ is left are the 25 special forms that need to be compiled.
 | let       | quote                |                 |
  
 * Structure
+
+#+ATTR_ORG: :width 600
+
 [[../../static/images/Structure.svg]]
 
 * Optimization
