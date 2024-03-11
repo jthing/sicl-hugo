@@ -18,22 +18,21 @@ better. As SICL itself it is written in Common lisp.This is a preliminary draft 
 ideas of how this can be accomplished, subject approval by Dr Strand.
 
 
-## The 26 special forms of common lisp {#the-26-special-forms-of-common-lisp}
+## The 25 special forms of common lisp {#the-25-special-forms-of-common-lisp}
 
 By the time the code gets to the compiler the macro-expander has already run and all that
-is left are the 26 special forms that need to be compiled.
+is left are the 25 special forms that need to be compiled.
 
-| block              | if                   | progv           |
-|--------------------|----------------------|-----------------|
-| catch              | labels               | quote           |
-| load-time-eval     | let                  | return-from     |
-| declare            | let\*                | setq            |
-| eval-when          | macrolet             | tagbody         |
-| flet               | multiple-value-call  | the             |
-| function           | multiple-value-prog1 | throw           |
-| go                 | progn                | unwind-protect  |
-| generic-flet       | generic-labels       | symbol-macrolet |
-| with-added-methods |                      |                 |
+| block     | let\*                | return-from     |
+|-----------|----------------------|-----------------|
+| catch     | load-time-value      | setq            |
+| eval-when | locally              | symbol-macrolet |
+| flet      | macrolet             | tagbody         |
+| function  | multiple-value-call  | the             |
+| go        | multiple-value-prog1 | throw           |
+| if        | progn                | unwind-protect  |
+| labels    | progv                |                 |
+| let       | quote                |                 |
 
 
 ## Structure {#structure}
