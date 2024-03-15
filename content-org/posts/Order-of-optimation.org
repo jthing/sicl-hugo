@@ -1,0 +1,23 @@
+#+title:      Order of optimation
+#+date:       <2024-03-16 lø.>
+#+OPTIONS: author:nil
+#+STARTUP: inlineimages
+
+#+hugo_base_dir: ~/Dokumenter/sicl-hugo
+#+hugo_selection: posts
+#+hugo_front_matter_format: yaml
+
+* Order of optimation
+
+For reference here is a replica of a illustration in Munchnick's book
+'Advanced compiler design  and implementation'
+
+[[../../static/images/Order-of-optimation.svg]]
+
+# Local Variables:
+# eval: (set-fill-column 90)
+# eval: (auto-fill-mode t)
+# eval: (org-hugo-auto-export-mode t)
+# End:
+
+#  LocalWords:  optimation

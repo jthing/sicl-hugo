@@ -20,6 +20,15 @@ compiler itself must compile fast similarly to the SBCL compiler today or
 better. As SICL itself it is written in Common lisp.This is a preliminary draft of my
 ideas of how this can be accomplished, subject approval by Dr Strand.
 
+ * Clostrum
+   [[http://metamodular.com/SICL/environments.pdf][First class global environment in common lisp]]
+ * Eclector
+   Portable reader
+ * Cleavir
+   Framework for common Lisp compilers
+ * Cluster
+   Assembler that accepts input as objects
+
 * The 25 special forms of common lisp
 
 By the time the code gets to the compiler the macro-expander has already run and all that
@@ -110,4 +119,4 @@ the expression being evaluated.
 # End:
 
 #  LocalWords:  inlining typecheck  svg jmp Runtime invariants progv setq prog flet
-#  LocalWords:  macrolet tagbody eval SICL
+#  LocalWords:  macrolet tagbody eval SICL Clostrum Cleavir

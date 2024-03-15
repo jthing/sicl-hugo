@@ -17,6 +17,15 @@ compiler itself must compile fast similarly to the SBCL compiler today or
 better. As SICL itself it is written in Common lisp.This is a preliminary draft of my
 ideas of how this can be accomplished, subject approval by Dr Strand.
 
+-   Clostrum
+    [First class global environment in common lisp](http://metamodular.com/SICL/environments.pdf)
+-   Eclector
+    Portable reader
+-   Cleavir
+    Framework for common Lisp compilers
+-   Cluster
+    Assembler that accepts input as objects
+
 
 ## The 25 special forms of common lisp {#the-25-special-forms-of-common-lisp}
 
