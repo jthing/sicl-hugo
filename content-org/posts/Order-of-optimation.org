@@ -1,4 +1,4 @@
-#+title:      Order of optimation
+#+title:      Order of optimizations
 #+date:       <2024-03-16 lø.>
 #+OPTIONS: author:nil
 #+STARTUP: inlineimages
@@ -7,7 +7,7 @@
 #+hugo_selection: posts
 #+hugo_front_matter_format: yaml
 
-* Order of optimation
+* Order of optimizations
 
 For reference here is a replica of a illustration in Munchnick's book
 'Advanced compiler design  and implementation'

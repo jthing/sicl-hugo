@@ -9,11 +9,11 @@
     <lastBuildDate>Sat, 16 Mar 2024 00:00:00 +0100</lastBuildDate>
     <atom:link href="//jthing.github.io/cicl-hugo/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Order of optimation</title>
+      <title>Order of optimizations</title>
       <link>//jthing.github.io/cicl-hugo/posts/order-of-optimation/</link>
       <pubDate>Sat, 16 Mar 2024 00:00:00 +0100</pubDate>
       <guid>//jthing.github.io/cicl-hugo/posts/order-of-optimation/</guid>
-      <description>Order of optimation For reference here is a replica of a illustration in Munchnick&amp;rsquo;s book &amp;lsquo;Advanced compiler design and implementation&amp;rsquo;</description>
+      <description>Order of optimizations For reference here is a replica of a illustration in Munchnick&amp;rsquo;s book &amp;lsquo;Advanced compiler design and implementation&amp;rsquo;</description>
     </item>
     <item>
       <title>Bibliography</title>
