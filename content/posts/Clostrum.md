@@ -6,4 +6,4 @@ draft: false
 
 ## Clostrum {#clostrum}
 
-{{< figure src="/images/Clostrum.png" >}}
+{{< figure src="/images/symbol-store.svg" >}}

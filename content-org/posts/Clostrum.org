@@ -9,7 +9,7 @@
 
 * Clostrum
 
-[[../../static/images/Clostrum.png]]
+[[../../static/images/symbol-store.svg]]
 
 
 # Local Variables:
