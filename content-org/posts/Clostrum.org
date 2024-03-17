@@ -1,0 +1,22 @@
+#+title:      Clostrum
+#+date:       <2024-03-17 sø.>
+#+OPTIONS: author:nil
+#+STARTUP: inlineimages
+
+hugo_base_dir: ~/Dokumenter/sicl-hugo
+#+hugo_selection: posts
+#+hugo_front_matter_format: yaml
+
+* Bibliography
+
+[[../../static/images/Clostrum.png]]
+
+# Local Variables:
+# eval: (require 'oc-bibtex)
+# eval: (set-fill-column 90)
+# eval: (auto-fill-mode t)
+# eval: (org-hugo-auto-export-mode t)
+# End:
+
+#  LocalWords:  inlining typecheck  svg jmp Runtime invariants progv setq prog
+#  LocalWords:  macrolet tagbody eval SICL Clostrum
