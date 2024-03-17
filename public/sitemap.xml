@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//jthing.github.io/cicl-hugo/posts/order-of-optimation/</loc>
-    <lastmod>2024-03-16T00:00:00+01:00</lastmod>
+    <loc>//jthing.github.io/cicl-hugo/posts/clostrum/</loc>
+    <lastmod>2024-03-17T00:00:00+01:00</lastmod>
   </url><url>
     <loc>//jthing.github.io/cicl-hugo/posts/</loc>
-    <lastmod>2024-03-16T00:00:00+01:00</lastmod>
+    <lastmod>2024-03-17T00:00:00+01:00</lastmod>
   </url><url>
     <loc>//jthing.github.io/cicl-hugo/</loc>
+    <lastmod>2024-03-17T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>//jthing.github.io/cicl-hugo/posts/order-of-optimation/</loc>
     <lastmod>2024-03-16T00:00:00+01:00</lastmod>
   </url><url>
     <loc>//jthing.github.io/cicl-hugo/posts/bibliography/</loc>

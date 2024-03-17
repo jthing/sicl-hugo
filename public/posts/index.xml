@@ -6,8 +6,15 @@
     <description>Recent content in Posts on SICL Compiler</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Mar 2024 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 17 Mar 2024 00:00:00 +0100</lastBuildDate>
     <atom:link href="//jthing.github.io/cicl-hugo/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Clostrum</title>
+      <link>//jthing.github.io/cicl-hugo/posts/clostrum/</link>
+      <pubDate>Sun, 17 Mar 2024 00:00:00 +0100</pubDate>
+      <guid>//jthing.github.io/cicl-hugo/posts/clostrum/</guid>
+      <description>Clostrum </description>
+    </item>
     <item>
       <title>Order of optimizations</title>
       <link>//jthing.github.io/cicl-hugo/posts/order-of-optimation/</link>
