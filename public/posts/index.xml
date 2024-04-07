@@ -6,8 +6,15 @@
     <description>Recent content in Posts on SICL Compiler</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 Mar 2024 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 07 Apr 2024 00:00:00 +0200</lastBuildDate>
     <atom:link href="//jthing.github.io/cicl-hugo/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bibliography</title>
+      <link>//jthing.github.io/cicl-hugo/posts/bibliography/</link>
+      <pubDate>Sun, 07 Apr 2024 00:00:00 +0200</pubDate>
+      <guid>//jthing.github.io/cicl-hugo/posts/bibliography/</guid>
+      <description>Bibliography @book{allenOptimizingCompilersModern2001, title = {Optimizing Compilers for Modern Architectures: A Dependence-Based Approach}, shorttitle = {Optimizing Compilers for Modern Architectures}, author = {Allen, Randy and Kennedy, Ken}, date = {2001}, edition = {1st ed}, publisher = {Morgan Kaufmann Publishers}, location = {San Francisco}, isbn = {978-1-55860-286-1}, pagetotal = {790}, keywords = {Computer architecture,Optimizing compilers} } @article{appelSSAFunctionalProgramming1998, title = {{{SSA}} Is Functional Programming}, author = {Appel, Andrew W.}, date = {1998-04}, journaltitle = {ACM SIGPLAN Notices}, shortjournal = {SIGPLAN Not.</description>
+    </item>
     <item>
       <title>Clostrum</title>
       <link>//jthing.github.io/cicl-hugo/posts/clostrum/</link>
@@ -21,13 +28,6 @@
       <pubDate>Sat, 16 Mar 2024 00:00:00 +0100</pubDate>
       <guid>//jthing.github.io/cicl-hugo/posts/order-of-optimation/</guid>
       <description>Order of optimizations For reference here is a replica of a illustration in Munchnick&amp;rsquo;s book &amp;lsquo;Advanced compiler design and implementation&amp;rsquo;</description>
-    </item>
-    <item>
-      <title>Bibliography</title>
-      <link>//jthing.github.io/cicl-hugo/posts/bibliography/</link>
-      <pubDate>Sun, 10 Mar 2024 00:00:00 +0100</pubDate>
-      <guid>//jthing.github.io/cicl-hugo/posts/bibliography/</guid>
-      <description>Bibliography @book{allenOptimizingCompilersModern2001, title = {Optimizing Compilers for Modern Architectures: A Dependence-Based Approach}, shorttitle = {Optimizing Compilers for Modern Architectures}, author = {Allen, Randy and Kennedy, Ken}, date = {2001}, edition = {1st ed}, publisher = {Morgan Kaufmann Publishers}, location = {San Francisco}, isbn = {978-1-55860-286-1}, pagetotal = {790}, keywords = {Computer architecture,Optimizing compilers} } @article{appelSSAFunctionalProgramming1998, title = {{{SSA}} Is Functional Programming}, author = {Appel, Andrew W.}, date = {1998-04}, journaltitle = {ACM SIGPLAN Notices}, shortjournal = {SIGPLAN Not.</description>
     </item>
     <item>
       <title>Compiler</title>

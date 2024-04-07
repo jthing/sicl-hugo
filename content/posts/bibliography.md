@@ -1,6 +1,6 @@
 ---
 title: "Bibliography"
-date: 2024-03-10T00:00:00+01:00
+date: 2024-04-07T00:00:00+02:00
 draft: false
 ---
 
@@ -109,6 +109,14 @@ draft: false
   pagetotal = {298}
 }
 
+@article{deanTrainingCompilersBetter,
+  title = {Training {{Compilers}} for {{Better Inlining Decisions}}},
+  author = {Dean, Jeffrey and Chambers, Craig},
+  abstract = {Optimizing implementations for object-oriented languages rely on aggressive inlining to achieve good performance. Sometimes the compiler is over-eager in its quest for good performance, however, and inlines too many methods that merely increase compile time and consume extra compiled code space with little benefit in run-time performance. We have designed and implemented a new approach to inlining decision making in which the compiler performs inlining experimentally and records the results in a database that can be consulted to guide future inlining decisions of the same routine at call sites that have similar static information. Central to our approach is a new technique, called type group analysis, that calculates how much of the static information available at a call site was profitably used during inlining. The results of type group analysis enable the compiler to compute a generalization of the actual static information for a particular experiment, significantly increasing reuse of database entries. Preliminary results indicate that compile time is almost cut in half with only a 15\% reduction in run-time performance.},
+  langid = {english},
+  file = {/home/john/Zotero/storage/XKKX2VT6/Dean og Chambers - Training Compilers for Better Inlining Decisions.pdf}
+}
+
 @article{durandRemovingRedundantTests,
   title = {Removing Redundant Tests by Replicating Control Paths},
   author = {Durand, Irène and Strandh, Robert},
@@ -156,6 +164,20 @@ draft: false
   file = {/home/john/Zotero/storage/6UVS69MQ/Hennessy et al. - 2012 - Computer architecture a quantitative approach.pdf}
 }
 
+@article{holzleDebuggingOptimizedCode,
+  title = {Debugging {{Optimized Code}} with {{Dynamic Deoptimization}}},
+  author = {Hölzle, Urs and Chambers, Craig and Ungar, David},
+  abstract = {SELF’s debugging system provides complete source-level debugging (expected behavior) with globally optimized code. It shields the debugger from optimizations performed by the compiler by dynamically deoptimizing code on demand. Deoptimization only affects the procedure activations that are actively being debugged; all other code runs at full speed. Deoptimization requires the compiler to supply debugging information at discrete interrupt points; the compiler can still perform extensive optimizations between interrupt points without affecting debuggability. At the same time, the inability to interrupt between interrupt points is invisible to the user. Our debugging system also handles programming changes during debugging. Again, the system provides expected behavior: it is possible to change a running program and immediately observe the effects of the change. Dynamic deoptimization transforms old compiled code (which may contain inlined copies of the old version of the changed procedure) into new versions reflecting the current source-level state. To the best of our knowledge, SELF is the first practical system providing full expected behavior with globally optimized code.},
+  langid = {english},
+  file = {/home/john/Zotero/storage/HKKSAV7V/Hölzle et al. - Debugging Optimized Code with Dynamic Deoptimizati.pdf}
+}
+
+@online{HttpsBibliographySelflanguage,
+  title = {{{https://bibliography.selflanguage.org/\_static/dynamic-deoptimization.pdf}}},
+  url = {https://bibliography.selflanguage.org/_static/dynamic-deoptimization.pdf},
+  urldate = {2024-03-25}
+}
+
 @book{jacobsCategoricalLogicType1999,
   title = {Categorical Logic and Type Theory},
   author = {Jacobs, Bart},
@@ -168,6 +190,17 @@ draft: false
   isbn = {978-0-444-50170-7},
   pagetotal = {760},
   keywords = {Categories (Mathematics),Type theory}
+}
+
+@article{jerinicSEMANTICSTHEOREMSA_LispKit1992,
+  title = {{{SEMANTICS THEOREMS OF A}}\_{{LispKit Lisp PROGRAMMING LANGUAGE}}},
+  author = {Jerinic, Ljubomir},
+  date = {1992-10-24},
+  journaltitle = {Bulletins for Applied Mathematics, Volume LXV, BAM 861/93, 307-318},
+  url = {https://www.academia.edu/2937935/SEMANTICS_THEOREMS_OF_A_LispKit_Lisp_PROGRAMMING_LANGUAGE},
+  urldate = {2024-03-18},
+  abstract = {A\_LispKit Lisp programming language is described in terms of denotational semantics approach. The functional programming language A\_LispKit Lisp, developed in the Institute of Mathematics Novi Sad in 1991/92, is described, by a new technique of the},
+  langid = {english}
 }
 
 @book{jonesGarbageCollectionAlgorithms2007,
