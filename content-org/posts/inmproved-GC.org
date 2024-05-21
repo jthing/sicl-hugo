@@ -1,6 +1,6 @@
 #+TITLE: Improved GC
 #+AUTHOR: John Thingstad
-#+DATE: 05/28-2025
+#+DATE: <2024-05-21 ti. 17:45>
 #+FILETAGS: none
 #+OPTIONS: author:nil
 
