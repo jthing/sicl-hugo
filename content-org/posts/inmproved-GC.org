@@ -4,7 +4,7 @@
 #+FILETAGS: none
 #+OPTIONS: author:nil
 
-#+hugo_base_dir: ~/Dokumenter/April
+#+hugo_base_dir: ~/Dokumenter/sicl-hugo
 #+hugo_selection: posts
 #+hugo_front_matter_format: yaml
 
