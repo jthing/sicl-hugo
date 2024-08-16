@@ -6,8 +6,15 @@
     <description>Recent content on SICL Compiler</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Apr 2024 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 16 Aug 2024 00:00:00 +0200</lastBuildDate>
     <atom:link href="//jthing.github.io/cicl-hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cleavir</title>
+      <link>//jthing.github.io/cicl-hugo/posts/cleavir/</link>
+      <pubDate>Fri, 16 Aug 2024 00:00:00 +0200</pubDate>
+      <guid>//jthing.github.io/cicl-hugo/posts/cleavir/</guid>
+      <description>Cleavir This is a continuation of Strands SICL (SICL implements Common Lisp). Although most of the compiler can itself be written in Common Lisp to be a compliant Compiler it must eventually compile to machine code. Today this is done by the SBCL compiler. To make the compiler work standalone this will need to be implemented and thus I have drafted this proposal. It is criteria that the compiler need to be fast and good.</description>
+    </item>
     <item>
       <title>Bibliography</title>
       <link>//jthing.github.io/cicl-hugo/posts/bibliography/</link>

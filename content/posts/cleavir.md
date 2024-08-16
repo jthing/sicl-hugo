@@ -1,13 +1,10 @@
-i#+title:      Cleavir
-#+date:       <2024-03-09 lø.>
-#+OPTIONS: author:nil
-#+STARTUP: inlineimages
+---
+title: "Cleavir"
+date: 2024-08-16T00:00:00+02:00
+draft: false
+---
 
-#+hugo_base_dir: ~/Dokumenter/sicl-hugo
-#+hugo_selection: posts
-#+hugo_front_matter_format: yaml
-
-* Cleavir
+## Cleavir {#cleavir}
 
 This is a continuation of Strands SICL (SICL implements Common
 Lisp). Although most of the compiler can itself be written in Common
@@ -20,21 +17,23 @@ compiler itself must compile fast similarly to the SBCL compiler today or
 better. As SICL itself it is written in Common lisp.This is a preliminary draft of my
 ideas of how this can be accomplished, subject approval by Dr Strand.
 
- * Clostrum
-   [[http://metamodular.com/SICL/environments.pdf][First class global environment in common lisp]]
- * Eclector
-   Portable reader
- * Cleavir
-   Framework for common Lisp compilers
- * Cluster
-   Assembler that accepts input as objects
+-   Clostrum
+    [First class global environment in common lisp](http://metamodular.com/SICL/environments.pdf)
+-   Eclector
+    Portable reader
+-   Cleavir
+    Framework for common Lisp compilers
+-   Cluster
+    Assembler that accepts input as objects
 
-* The 25 special forms of common lisp
+
+## The 25 special forms of common lisp {#the-25-special-forms-of-common-lisp}
 
 By the time the code gets to the compiler the macro-expander has already run and all that
 is left are the 25 special forms that need to be compiled.
 
-| block     | let*                 | return-from     |
+| block     | let\*                | return-from     |
+|-----------|----------------------|-----------------|
 | catch     | load-time-value      | setq            |
 | eval-when | locally              | symbol-macrolet |
 | flet      | macrolet             | tagbody         |
@@ -43,19 +42,8 @@ is left are the 25 special forms that need to be compiled.
 | if        | progn                | unwind-protect  |
 | labels    | progv                |                 |
 | let       | quote                |                 |
- 
-* Structure
-
-#+ATTR_ORG: :width 600
-
-[[../../static/images/SICL-compiler.svg]]
 
 
-# Local Variables:
-# eval: (set-fill-column 90)
-# eval: (auto-fill-mode t)
-# eval: (org-hugo-auto-export-mode t)
-# End:
+## Structure {#structure}
 
-#  LocalWords:  inlining typecheck  svg jmp Runtime invariants progv setq prog flet
-#  LocalWords:  macrolet tagbody eval SICL Clostrum Cleavir
+{{< figure src="/images/SICL-compiler.svg" >}}
