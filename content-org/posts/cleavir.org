@@ -48,7 +48,7 @@ is left are the 25 special forms that need to be compiled.
 
 #+ATTR_ORG: :width 600
 
-[[../../static/images/SICL-compiler.svg]]
+[[../../static/images/Cleavir.svg]]
 
 
 # Local Variables:

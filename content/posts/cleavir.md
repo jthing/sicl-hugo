@@ -46,4 +46,4 @@ is left are the 25 special forms that need to be compiled.
 
 ## Structure {#structure}
 
-{{< figure src="/images/SICL-compiler.svg" >}}
+{{< figure src="/images/Cleavir.svg" >}}
