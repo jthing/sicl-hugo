@@ -12,7 +12,7 @@
       <link>//jthing.github.io/cicl-hugo/posts/inmproved-gc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//jthing.github.io/cicl-hugo/posts/inmproved-gc/</guid>
-      <description>Improved GC Hayley&amp;rsquo;s algorithm in initiated by:&#xA;git clone https://github.com/sbcl/sbcl; cd sbcl;SBCL_MAKE_JOBS=&amp;quot;-j&amp;quot; SBCL_MAKE_PARALLEL=42069 ./make.sh &amp;ndash;with-mark-region-gc&#xA;It&amp;rsquo;s improvement of performance on my machine is pure magic.</description>
+      <description>&lt;h2 id=&#34;improved-gc&#34;&gt;Improved GC&lt;/h2&gt;&#xA;&lt;p&gt;Hayley&amp;rsquo;s algorithm in initiated by:&lt;/p&gt;&#xA;&lt;p&gt;git clone &lt;a href=&#34;https://github.com/sbcl/sbcl&#34;&gt;https://github.com/sbcl/sbcl&lt;/a&gt;; cd sbcl;SBCL_MAKE_JOBS=&amp;quot;-j&amp;quot; SBCL_MAKE_PARALLEL=42069&#xA;./make.sh &amp;ndash;with-mark-region-gc&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s improvement of performance on my machine is pure magic.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

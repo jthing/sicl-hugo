@@ -8,7 +8,350 @@
 
     
     
-    <meta name="description" content="Bibliography @book{allenOptimizingCompilersModern2001, title = {Optimizing Compilers for Modern Architectures: A Dependence-Based Approach}, shorttitle = {Optimizing Compilers for Modern Architectures}, author = {Allen, Randy and Kennedy, Ken}, date = {2001}, edition = {1st ed}, publisher = {Morgan Kaufmann Publishers}, location = {San Francisco}, isbn = {978-1-55860-286-1}, pagetotal = {790}, keywords = {Computer architecture,Optimizing compilers} } @article{appelSSAFunctionalProgramming1998, title = {{{SSA}} Is Functional Programming}, author = {Appel, Andrew W.}, date = {1998-04}, journaltitle = {ACM SIGPLAN Notices}, shortjournal = {SIGPLAN Not." />
+    <meta name="description" content="Bibliography
+
+@book{allenOptimizingCompilersModern2001,
+  title = {Optimizing Compilers for Modern Architectures: A Dependence-Based Approach},
+  shorttitle = {Optimizing Compilers for Modern Architectures},
+  author = {Allen, Randy and Kennedy, Ken},
+  date = {2001},
+  edition = {1st ed},
+  publisher = {Morgan Kaufmann Publishers},
+  location = {San Francisco},
+  isbn = {978-1-55860-286-1},
+  pagetotal = {790},
+  keywords = {Computer architecture,Optimizing compilers}
+}
+
+@article{appelSSAFunctionalProgramming1998,
+  title = {{{SSA}} Is Functional Programming},
+  author = {Appel, Andrew W.},
+  date = {1998-04},
+  journaltitle = {ACM SIGPLAN Notices},
+  shortjournal = {SIGPLAN Not.},
+  volume = {33},
+  number = {4},
+  pages = {17--20},
+  issn = {0362-1340, 1558-1160},
+  doi = {10.1145/278283.278285},
+  url = {https://dl.acm.org/doi/10.1145/278283.278285},
+  urldate = {2024-03-09},
+  langid = {english},
+  file = {/home/john/Zotero/storage/RNTL2HK5/Appel - 1998 - SSA is functional programming.pdf}
+}
+
+@book{barendregtLambdaCalculusIts1984,
+  title = {The Lambda Calculus: Its Syntax and Semantics},
+  shorttitle = {The Lambda Calculus},
+  author = {Barendregt, H. P.},
+  date = {1984},
+  series = {Studies in Logic and the Foundations of Mathematics},
+  edition = {Rev. ed},
+  number = {v. 103},
+  publisher = {{North-Holland ; Sole distributors for the U.S.A. and Canada, Elsevier Science Pub. Co}},
+  location = {Amsterdam ; New York : New York, N.Y},
+  isbn = {978-0-444-86748-3 978-0-444-87508-2},
+  pagetotal = {621},
+  keywords = {Lambda calculus}
+}
+
+@book{biereHandbookSatisfiability2009,
+  title = {Handbook of Satisfiability},
+  editor = {Biere, Armin},
+  date = {2009},
+  series = {Frontiers in Artificial Intelligence and Applications},
+  number = {v. 185},
+  publisher = {IOS Press},
+  location = {Amsterdam, The Netherlands ; Washington, DC},
+  isbn = {978-1-58603-929-5},
+  pagetotal = {966},
+  keywords = {Algebra Boolean,Algorithmus,Anwendung,Berechnungskomplexität,Computer algorithms,Congresses,Decision making,Erfüllbarkeitsproblem,Propositional calculus},
+  annotation = {OCLC: ocn290492523}
+}
+
+@article{clickSimpleGraphBasedIntermediate,
+  title = {A {{Simple Graph-Based Intermediate Representation}}},
+  author = {Click, Cliff and Paleczny, Michael},
+  abstract = {We present a graph-based intermediate representation (IR) with simple semantics and a low-memory-cost C&#43;&#43; implementation. The IR uses a directed graph with labeled vertices and ordered inputs but unordered outputs. Vertices are labeled with opcodes, edges are unlabeled. We represent the CFG and basic blocks with the same vertex and edge structures. Each opcode is defined by a C&#43;&#43; class that encapsulates opcode-specific data and behavior. We use inheritance to abstract common opcode behavior, allowing new opcodes to be easily defined from old ones. The resulting IR is simple, fast and easy to use.},
+  langid = {english},
+  file = {/home/john/Zotero/storage/685NSKUM/Click og Paleczny - A Simple Graph-Based Intermediate Representation.pdf}
+}
+
+@inreference{ContinuationpassingStyle2023,
+  title = {Continuation-Passing Style},
+  booktitle = {Wikipedia},
+  date = {2023-11-02T15:32:49Z},
+  url = {https://en.wikipedia.org/w/index.php?title=Continuation-passing_style&amp;oldid=1183163457},
+  urldate = {2024-03-03},
+  abstract = {In functional programming, continuation-passing style (CPS) is a style of programming in which control is passed explicitly in the form of a continuation. This is contrasted with direct style, which is the usual style of programming. Gerald Jay Sussman and Guy L. Steele, Jr. coined the phrase in AI Memo 349 (1975), which sets out the first version of the Scheme programming language.John C. Reynolds gives a detailed account of the numerous discoveries of continuations.A function written in continuation-passing style takes an extra argument: an explicit &#34;continuation&#34;; i.e., a function of one argument.  When the CPS function has computed its result value, it &#34;returns&#34; it by calling the continuation function with this value as the argument. That means that when invoking a CPS function, the calling function is required to supply a procedure to be invoked with the subroutine&#39;s &#34;return&#34; value.  Expressing code in this form makes a number of things explicit which are implicit in direct style.  These include: procedure returns, which become apparent as calls to a continuation; intermediate values, which are all given names; order of argument evaluation, which is made explicit; and tail calls, which simply call a procedure with the same continuation, unmodified, that was passed to the caller. Programs can be automatically transformed from direct style to CPS. Functional and logic compilers often use CPS as an intermediate representation where a compiler for an imperative or procedural programming language would use static single assignment form (SSA). SSA is formally equivalent to a subset of CPS (excluding non-local control flow, which does not occur when CPS is used as intermediate representation). Functional compilers can also use A-normal form (ANF) (but only for languages requiring eager evaluation), rather than with &#39;thunks&#39; (described in the examples below) in CPS.  CPS is used more frequently by compilers than by programmers as a local or global style.},
+  langid = {english},
+  annotation = {Page Version ID: 1183163457},
+  file = {/home/john/Zotero/storage/44YKD49Q/Continuation-passing_style.html}
+}
+
+@video{CrashCourseModern,
+  entrysubtype = {video},
+  title = {A Crash Course in Modern Hardware by Cliff Click},
+  url = {https://www.youtube.com/watch?v=OFgxAFdxYAQ},
+  urldate = {2024-02-26},
+  abstract = {I walk through a tiny performance example on a modern out-of-order CPU, and basically show that (1) single-threaded performance is tapped out, (2) all the ac...},
+  langid = {norwegianbokmal},
+  file = {/home/john/Zotero/storage/72W3PQHJ/watch.html}
+}
+
+@book{daveyIntroductionLatticesOrder2010a,
+  title = {Introduction to Lattices and Order},
+  author = {Davey, Brian A. and Priestley, Hilary A. and Davey, B. A.},
+  date = {2010},
+  edition = {2. ed., 5. printing},
+  publisher = {Cambridge Univ. Press},
+  location = {Cambridge},
+  isbn = {978-0-521-78451-1},
+  langid = {english},
+  pagetotal = {298}
+}
+
+@article{deanTrainingCompilersBetter,
+  title = {Training {{Compilers}} for {{Better Inlining Decisions}}},
+  author = {Dean, Jeffrey and Chambers, Craig},
+  abstract = {Optimizing implementations for object-oriented languages rely on aggressive inlining to achieve good performance. Sometimes the compiler is over-eager in its quest for good performance, however, and inlines too many methods that merely increase compile time and consume extra compiled code space with little benefit in run-time performance. We have designed and implemented a new approach to inlining decision making in which the compiler performs inlining experimentally and records the results in a database that can be consulted to guide future inlining decisions of the same routine at call sites that have similar static information. Central to our approach is a new technique, called type group analysis, that calculates how much of the static information available at a call site was profitably used during inlining. The results of type group analysis enable the compiler to compute a generalization of the actual static information for a particular experiment, significantly increasing reuse of database entries. Preliminary results indicate that compile time is almost cut in half with only a 15\% reduction in run-time performance.},
+  langid = {english},
+  file = {/home/john/Zotero/storage/XKKX2VT6/Dean og Chambers - Training Compilers for Better Inlining Decisions.pdf}
+}
+
+@article{durandRemovingRedundantTests,
+  title = {Removing Redundant Tests by Replicating Control Paths},
+  author = {Durand, Irène and Strandh, Robert},
+  abstract = {We describe a technique for removing redundant tests in intermediate code by replicating the control paths between two identical tests, the second of which is dominated by the first. The two replicas encode different outcomes of the test, making it possible to remove the second of the two. Our technique uses local graph rewriting, making its correctness easy to prove. We also present a proof that the rewriting always terminates. This technique can be used to eliminate multiple tests that occur naturally such as the test for consness when both car and cdr are applied to the same object, but we also show how this technique can be used to automatically create specialized versions of general code, for example in order to create fast specialized versions of sequence functions such as find depending on the type of the sequence and the values of the keyword arguments supplied.},
+  langid = {english},
+  file = {/home/john/Zotero/storage/G6RUD3V3/Durand og Strandh - Removing redundant tests by replicating control pa.pdf}
+}
+
+@article{flanaganEssenceCompilingContinuations,
+  title = {The {{Essence}} of {{Compiling}} with {{Continuations}}},
+  author = {Flanagan, Cormac and Sabry, Amr and Duba, Bruce F and Felleisen, Matthias},
+  abstract = {In order to simplify the compilation process, many compilers for higher-order languages use the continuationpassing style (CPS) transformation in a rst phase to generate an intermediate representation of the source program. The salient aspect of this intermediate form is that all procedures take an argument that represents the rest of the computation (the \textbackslash continuation&#34;). Since the na ve CPS transformation considerably increases the size of programs, CPS compilers perform reductions to produce a more compact intermediate representation. Although often implemented as a part of the CPS transformation, this step is conceptually a second phase. Finally, code generators for typical CPS compilers treat continuations specially in order to optimize the interpretation of continuation parameters.},
+  langid = {english},
+  file = {/home/john/Zotero/storage/69GCBY46/Flanagan et al. - The Essence of Compiling with Continuations.pdf}
+}
+
+@article{ghalayiniExplicitRefinementTypes2023,
+  title = {Explicit {{Refinement Types}}},
+  author = {Ghalayini, Jad Elkhaleq and Krishnaswami, Neel},
+  date = {2023-08-30},
+  journaltitle = {Proceedings of the ACM on Programming Languages},
+  shortjournal = {Proc. ACM Program. Lang.},
+  volume = {7},
+  pages = {187--214},
+  issn = {2475-1421},
+  doi = {10.1145/3607837},
+  url = {https://dl.acm.org/doi/10.1145/3607837},
+  urldate = {2024-03-16},
+  abstract = {JAD ELKHALEQ GHALAYINI, University of Cambridge, United Kingdom NEEL KRISHNASWAMI, University of Cambridge, United Kingdom We present ert, a type theory supporting refinement types with explicit proofs. Instead of solving refinement constraints with an SMT solver like DML and Liquid Haskell, our system requires and permits programmers to embed proofs of properties within the program text, letting us support a rich logic of properties including quantifiers and induction. We show that the type system is sound by showing that every refined program erases to a simply-typed program, and by means of a denotational semantics, we show that every erased program has all of the properties demanded by its refined type. All of our proofs are formalised in Lean 4. CCS Concepts: • Theory of computation → Program verification; Denotational semantics.},
+  issue = {ICFP},
+  langid = {english},
+  file = {/home/john/Zotero/storage/LAEY3ZEX/Ghalayini og Krishnaswami - 2023 - Explicit Refinement Types.pdf}
+}
+
+@book{hennessyComputerArchitectureQuantitative2012,
+  title = {Computer Architecture: A Quantitative Approach},
+  shorttitle = {Computer Architecture},
+  author = {Hennessy, John L. and Patterson, David A. and Asanović, Krste},
+  date = {2012},
+  edition = {5. ed},
+  publisher = {Elsevier, Morgan Kaufmann},
+  location = {Amsterdam Heidelberg},
+  isbn = {978-0-12-383872-8 978-93-81269-22-0},
+  langid = {english},
+  file = {/home/john/Zotero/storage/6UVS69MQ/Hennessy et al. - 2012 - Computer architecture a quantitative approach.pdf}
+}
+
+@article{holzleDebuggingOptimizedCode,
+  title = {Debugging {{Optimized Code}} with {{Dynamic Deoptimization}}},
+  author = {Hölzle, Urs and Chambers, Craig and Ungar, David},
+  abstract = {SELF’s debugging system provides complete source-level debugging (expected behavior) with globally optimized code. It shields the debugger from optimizations performed by the compiler by dynamically deoptimizing code on demand. Deoptimization only affects the procedure activations that are actively being debugged; all other code runs at full speed. Deoptimization requires the compiler to supply debugging information at discrete interrupt points; the compiler can still perform extensive optimizations between interrupt points without affecting debuggability. At the same time, the inability to interrupt between interrupt points is invisible to the user. Our debugging system also handles programming changes during debugging. Again, the system provides expected behavior: it is possible to change a running program and immediately observe the effects of the change. Dynamic deoptimization transforms old compiled code (which may contain inlined copies of the old version of the changed procedure) into new versions reflecting the current source-level state. To the best of our knowledge, SELF is the first practical system providing full expected behavior with globally optimized code.},
+  langid = {english},
+  file = {/home/john/Zotero/storage/HKKSAV7V/Hölzle et al. - Debugging Optimized Code with Dynamic Deoptimizati.pdf}
+}
+
+@online{HttpsBibliographySelflanguage,
+  title = {{{https://bibliography.selflanguage.org/\_static/dynamic-deoptimization.pdf}}},
+  url = {https://bibliography.selflanguage.org/_static/dynamic-deoptimization.pdf},
+  urldate = {2024-03-25}
+}
+
+@book{jacobsCategoricalLogicType1999,
+  title = {Categorical Logic and Type Theory},
+  author = {Jacobs, Bart},
+  date = {1999},
+  series = {Studies in Logic and the Foundations of Mathematics},
+  edition = {1st ed},
+  number = {v. 141},
+  publisher = {Elsevier Science},
+  location = {Amsterdam ; New York},
+  isbn = {978-0-444-50170-7},
+  pagetotal = {760},
+  keywords = {Categories (Mathematics),Type theory}
+}
+
+@article{jerinicSEMANTICSTHEOREMSA_LispKit1992,
+  title = {{{SEMANTICS THEOREMS OF A}}\_{{LispKit Lisp PROGRAMMING LANGUAGE}}},
+  author = {Jerinic, Ljubomir},
+  date = {1992-10-24},
+  journaltitle = {Bulletins for Applied Mathematics, Volume LXV, BAM 861/93, 307-318},
+  url = {https://www.academia.edu/2937935/SEMANTICS_THEOREMS_OF_A_LispKit_Lisp_PROGRAMMING_LANGUAGE},
+  urldate = {2024-03-18},
+  abstract = {A\_LispKit Lisp programming language is described in terms of denotational semantics approach. The functional programming language A\_LispKit Lisp, developed in the Institute of Mathematics Novi Sad in 1991/92, is described, by a new technique of the},
+  langid = {english}
+}
+
+@book{jonesGarbageCollectionAlgorithms2007,
+  title = {Garbage Collection: Algorithms for Automatic Dynamic Memory Management},
+  shorttitle = {Garbage Collection},
+  author = {Jones, Richard and Lins, Rafael},
+  date = {2007},
+  edition = {Reprinted October 2007},
+  publisher = {Wiley},
+  location = {Chichester},
+  isbn = {978-0-471-94148-4},
+  langid = {english},
+  pagetotal = {379}
+}
+
+@article{kelseyCorrespondenceContinuationPassing,
+  title = {A {{Correspondence}} between {{Continuation Passing Style}} and {{Static Single Assignment Form}}},
+  author = {Kelsey, Richard A},
+  langid = {english},
+  file = {/home/john/Zotero/storage/I24WPJWX/Kelsey - A Correspondence between Continuation Passing Styl.pdf}
+}
+
+@book{khedkerDataFlowAnalysis2009,
+  title = {Data Flow Analysis: Theory and Practice},
+  shorttitle = {Data Flow Analysis},
+  author = {Khedker, Uday and Sanyal, Amitabha and Karkare, Bageshri},
+  date = {2009},
+  publisher = {CRC Press/Taylor \&amp; Francis},
+  location = {Boca Raton, FL},
+  isbn = {978-0-8493-2880-0},
+  pagetotal = {386},
+  keywords = {Compilers (Computer programs),Computer software,Data flow computing,Software engineering,Verification},
+  annotation = {OCLC: ocn300030552}
+}
+
+@inproceedings{muchnickAdvancedCompilerDesign1997,
+  title = {Advanced {{Compiler Design}} and {{Implementation}}},
+  author = {Muchnick, S. S.},
+  date = {1997},
+  url = {https://www.semanticscholar.org/paper/Advanced-Compiler-Design-and-Implementation-Muchnick/9364b48b83244e432d970414cb3659cd0d0a23da},
+  urldate = {2024-03-14},
+  abstract = {Advanced Compiler Design and Implementation by Steven Muchnick Preface 1 Introduction to Advanced Topics 1.1 Review of Compiler Structure 1.2 Advanced Issues in Elementary Topics 1.3 The Importance of Code Optimization 1.4 Structure of Optimizing Compilers 1.5 Placement of Optimizations in Aggressive Optimizing Compilers 1.6 Reading Flow Among the Chapters 1.7 Related Topics Not Covered in This Text 1.8 Target Machines Used in Examples 1.9 Number Notations and Data Sizes 1.10 Wrap-Up 1.11 Further Reading 1.12 Exercises 2 Informal Compiler Algorithm Notation (ICAN) 2.1 Extended Backus-Naur Form Syntax Notation 2.2 Introduction to ICAN 2.3 A Quick Overview of ICAN 2.4 Whole Programs 2.5 Type Definitions 2.6 Declarations 2.7 Data Types and Expressions 2.8 Statements 2.9 Wrap-Up 2.10 Further Reading 2.11 Exercises 3 Symbol-Table Structure 3.1 Storage Classes, Visibility, and Lifetimes 3.2 Symbol Attributes and Symbol-Table Entries 3.3 Local Symbol-Table Management 3.4 Global Symbol-Table Structure 3.5 Storage Binding and Symbolic Registers 3.6 Approaches to Generating Loads and Stores 3.7 Wrap-Up 3.8 Further Reading 3.9 Exercises 4 Intermediate Representations 4.1 Issues in Designing an Intermediate Language 4.2 High-Level Intermediate Languages 4.3 Medium-Level Intermediate Languages 4.4 Low-Level Intermediate Languages 4.5 Multi-Level Intermediate Languages 4.6 Our Intermediate Languages: MIR, HIR, and LIR 4.7 Representing MIR, HIR, and LIR in ICAN 4.8 ICAN Naming of Data Structures and Routines that Manipulate Intermediate Code 4.9 Other Intermediate-Language Forms 4.10 Wrap-Up 4.11 Further Reading 4.12 Exercises 5 Run-Time Support 5.1 Data Representations and Instructions 5.2 Register Usage 5.3 The Local Stack Frame 5.4 The Run-Time Stack 5.5 Parameter-Passing Disciplines 5.6 Procedure Prologues, Epilogues, Calls, and Returns 5.7 Code Sharing and Position-Independent Code 5.8 Symbolic and Polymorphic Language Support 5.9 Wrap-Up 5.10 Further Reading 5.11 Exercises 6 Producing Code Generators Automatically 6.1 Introduction to Automatic Generation of Code Generators 6.2 A Syntax-Directed Technique 6.3 Introduction to Semantics-Directed Parsing 6.4 Tree Pattern Matching and Dynamic Programming 6.5 Wrap-Up 6.6 Further Reading 6.7 Exercises 7 Control-Flow Analysis 7.1 Approaches to Control-Flow Analysis 7.2 Depth-First Search, Preorder Traversal, Postorder Traversal, and Breadth-First Search 7.3 Dominators 7.4 Loops and Strongly Connected Components 7.5 Reducibility 7.6 Interval Analysis and Control Trees 7.7 Structural Analysis 7.8 Wrap-Up 7.9 Further Reading 7.10 Exercises 8 Data-Flow Analysis 8.1 An Example: Reaching Definitions 8.2 Basic Concepts: Lattices, Flow Functions, and Fixed Points 8.3 Taxonomy of Data-Flow Problems and Solution Methods 8.4 Iterative Data-Flow Analysis 8.5 Lattices of Flow Functions 8.6 Control-Tree-Based Data-Flow Analysis 8.7 Structural Analysis 8.8 Interval Analysis 8.9 Other Approaches 8.10 Du-Chains, Ud-Chains, and Webs 8.11 Static Single-Assignment (SSA) Form 8.12 Dealing with Arrays, Structures, and Pointers 8.13 Automating Construction of Data-Flow Analyzers 8.14 More Ambitious Analyses 8.15 Wrap-Up 8.16 Further Reading 8.17 Exercises 9 Dependence Analysis and Dependence Graph 9.1 Dependence Relations 9.2 Basic-Block Dependence DAGs 9.3 Dependences in Loops 9.4 Dependence Testing 9.5 Program-Dependence Graphs 9.6 Dependences Between Dynamically Allocated Objects 9.7 Wrap-Up 9.8 Further Reading 9.9 Exercises 10 Alias Analysis 10.1 Aliases in Various Real Programming Languages 10.2 The Alias Gatherer 10.3 The Alias Propagator 10.4 Wrap-Up 10.5 Further Reading 10.6 Exercises 11 Introduction to Optimization 11.1 Global Optimizations Discussed in Chapters 12 Through 18 11.2 Flow Sensitivity and May vs. Must Information 11.3 Importance of Individual Optimizations 11.4 Order and Repetition of Optimizations 11.5 Further Reading 11.6 Exercises 12 Early Optimizations 12.1 Constant-Expression Evaluation (Constant Folding) 12.2 Scalar Replacement of Aggregates 12.3 Algebraic Simplifications and Reassociation 12.4 Value Numbering 12.5 Copy Propagation 12.6 Sparse Conditional Constant Propagation 12.7 Wrap-Up 12.8 Further Reading 12.9 Exercises 13 Redundancy Elimination 13.1 Common-Subexpression Elimination 13.2 Loop-Invariant Code Motion 13.3 Partial-Redundancy Elimination 13.4 Redundancy Elimination and Reassociation 13.5 Code Hoisting 13.6 Wrap-Up 13.7 Further Reading 13.8 Exercises 14 Loop Optimizations 14.1 Induction-Variable Optimizations 14.2 Unnecessary Bounds-Checking Elimination 14.3 Wrap-Up 14.4 Further Reading 14.5 Exercises 15 Procedure Optimizations 15.1 Tail-Call Optimization and Tail-Recursion Elimination 15.2 Procedure Integration 15.3 In-Line Expansion 15.4 Leaf-Routine Optimization and Shrink Wrapping 15.5 Wrap-Up 15.6 Further Reading 15.7 Exercises 16 Register Allocation 16.1 Register Allocation and Assignment 16.2 Local Methods 16.3 Graph Coloring 16.4 Priority-Based Graph Coloring 16.5 Other Approaches to Register Allocation 16.6 Wrap-Up 16.7 Further Reading 16.8 Exercises 17 Code Scheduling 17.1 Instruction Scheduling 17.2 Speculative Loads and Boosting 17.3 Speculative Scheduling 17.4 Software Pipelining 17.5 Trace Scheduling 17.6 Percolation Scheduling 17.7 Wrap-Up 17.8 Further Reading 17.9 Exercises 18 Control-Flow and Low-Level Optimizations 18.1 Unreachable-Code Elimination 18.2 Straightening 18.3 If Simplifications 18.4 Loop Simplifications 18.5 Loop Inversion 18.6 Unswitching 18.7 Branch Optimizations 18.8 Tail Merging or Cross Jumping 18.9 Conditional Moves 18.10 Dead-Code Elimination 18.11 Branch Prediction 18.12 Machine Idioms and Instruction Combining 18.13 Wrap-Up 18.14 Further Reading 18.15 Exercises 19 Interprocedural Analysis and Optimization 19.1 Interprocedural Control-Flow Analysis: The Call Graph 19.2 Interprocedural Data-Flow Analysis 19.3 Interprocedural Constant Propagation 19.4 Interprocedural Alias Analysis 19.5 Interprocedural Optimizations 19.6 Interprocedural Register Allocation 19.7 Aggregation of Global References 19.8 Other Issues in Interprocedural Program Management 19.9 Wrap-Up 19.10 Further Reading 19.11 Exercises 20 Optimization of the Memory Hierarchy 20.1 Impact of Data and Instruction Caches 20.2 Instruction-Cache Optimization 20.3 Scalar Replacement of Array Elements 20.4 Data-Cache Optimization 20.5 Scalar vs. Memory-Oriented Optimizations 20.6 Wrap-Up 20.7 Further Reading 20.8 Exercises 21 Case Studies of Compilers and Future Trends 21.1 the Sun Compilers for SPARC 21.2 The IBM XL Compilers for the POWER and PowerPC Architectures 21.3 Digital Equipment&#39;s Compilers for Alpha 21.4 The Intel Reference Compilers for the Intel 386 Architecture 21.5 Future Trends in Compiler Design and Implementation 21.6 Further Reading A Guide to Assembly Languages Used in This Book A.1 Sun SPARC Versions 8 and 9 Assembly Language A.2 IBM POWER and PowerPC Assembly Language A.3 DEC Alpha Assembly Language A.4 Intel 386 Architecture Assembly Language A.5 Hewlett-Packard&#39;s PA-RISC Assembly Language B Representation of Sets, Sequences, Trees, DAGs, and Functions B.1 Representation of Sets B.2 Representation of Sequences B.3 Representation of Trees and DAGs B.4 Representation of Functions B.5 Further Reading C Software Resources View Appendix C with live links to download sites C.1 Finding and Accessing Software on the Internet C.2 Machine Simulators C.3 Compilers C.4 Code-Generator Generators: BURG and IBURG C.5 Profiling Tools Bibliography Indices}
+}
+
+@book{muchnickAdvancedCompilerDesign1997a,
+  title = {Advanced Compiler Design and Implementation},
+  author = {Muchnick, Steven S.},
+  date = {1997},
+  publisher = {Morgan Kaufmann Publishers},
+  location = {San Francisco},
+  isbn = {978-1-55860-320-2},
+  langid = {english}
+}
+
+@book{nipkowConcreteSemanticsIsabelle2014,
+  title = {Concrete {{Semantics}}: {{With Isabelle}}/{{HOL}}},
+  shorttitle = {Concrete {{Semantics}}},
+  author = {Nipkow, Tobias and Klein, Gerwin},
+  date = {2014},
+  publisher = {Springer International Publishing},
+  location = {Cham},
+  doi = {10.1007/978-3-319-10542-0},
+  url = {https://link.springer.com/10.1007/978-3-319-10542-0},
+  urldate = {2024-03-11},
+  isbn = {978-3-319-10541-3 978-3-319-10542-0},
+  langid = {english},
+  file = {/home/john/Zotero/storage/W9MJL6F9/Nipkow og Klein - 2014 - Concrete Semantics With IsabelleHOL.pdf}
+}
+
+@book{nipkowConcreteSemanticsIsabelle2014a,
+  title = {Concrete {{Semantics}}: {{With Isabelle}}/{{HOL}}},
+  shorttitle = {Concrete {{Semantics}}},
+  author = {Nipkow, Tobias and Klein, Gerwin},
+  date = {2014},
+  publisher = {Springer International Publishing},
+  location = {Cham},
+  doi = {10.1007/978-3-319-10542-0},
+  url = {https://link.springer.com/10.1007/978-3-319-10542-0},
+  urldate = {2024-03-13},
+  isbn = {978-3-319-10541-3 978-3-319-10542-0},
+  langid = {english},
+  file = {/home/john/Zotero/storage/DWUHAE9A/Nipkow og Klein - 2014 - Concrete Semantics With IsabelleHOL.pdf}
+}
+
+@book{pierceAdvancedTopicsTypes2005,
+  title = {Advanced Topics in Types and Programming Languages},
+  editor = {Pierce, Benjamin C.},
+  date = {2005},
+  publisher = {MIT Press},
+  location = {Cambridge, Mass.},
+  abstract = {Substructural type systems / David Walker -- Dependent types / David Aspinall and Martin Hofmann -- Effect types and region-based memory management / Fritz Henglein, Henning Makholm, and Henning Niss -- Typed assembly language / Greg Morrisett -- Proof-carrying code / George Necula -- Logical relations and a case study in equivalence checking / Karl Crary -- Typed operational reasoning / Andrew Pitts -- Design considerations for ML-style module systems / Robert Harper and Benjamin C. Pierce -- Type definitions / Christopher A. Stone -- The essence of ML type inference / Fran(c)ʹois Pottier and Didier R(c)♭my.y},
+  isbn = {978-0-262-16228-9},
+  langid = {english},
+  pagetotal = {574},
+  file = {/home/john/Zotero/storage/MMH8AGBM/Pierce - 2005 - Advanced topics in types and programming languages.pdf}
+}
+
+@book{pierceTypesProgrammingLanguages2002,
+  title = {Types and Programming Languages},
+  author = {Pierce, Benjamin C.},
+  date = {2002},
+  publisher = {MIT Press},
+  location = {Cambridge, Mass},
+  isbn = {978-0-262-16209-8},
+  pagetotal = {623},
+  keywords = {Programming languages (Electronic computers)}
+}
+
+@book{queinnecLispSmallPieces2003,
+  title = {Lisp in Small Pieces},
+  author = {Queinnec, Christian and Callaway, Kathleen and Queinnec, Christian and Queinnec, Christian},
+  date = {2003},
+  edition = {1. paperback ed},
+  publisher = {Cambridge Univ. Press},
+  location = {Cambridge},
+  isbn = {978-0-521-54566-2 978-0-521-56247-8},
+  langid = {english},
+  pagetotal = {514}
+}
+
+@article{rao2006UpdateClemens,
+  title = {2006 {{Update Clemens Fruhwirth}} {$&lt;$}clemens@endorphin.Org{$&gt;$} {{The McCLIM Project}}},
+  author = {Rao, Ramana},
+  langid = {english},
+  file = {/home/john/Zotero/storage/9FQDUQRQ/Rao - 2006 Update Clemens Fruhwirth clemens@endorphin.o.pdf}
+}
+
+@online{RegisterAllocationAlgorithms2020,
+  title = {Register {{Allocation Algorithms}} in {{Compiler Design}}},
+  date = {2020-12-25T11:23:23&#43;00:00},
+  url = {https://www.geeksforgeeks.org/register-allocation-algorithms-in-compiler-design/},
+  urldate = {2024-03-03},
+  abstract = {A Computer Science portal for geeks. It contains well written, well thought and well explained computer science and programming articles, quizzes and practice/competitive programming/company interview Questions.},
+  langid = {american},
+  organization = {GeeksforGeeks},
+  file = {/home/john/Zotero/storage/CZH6EUFP/register-allocation-algorithms-in-compiler-design.html}
+}
+
+@book{warrenHackerDelight2003,
+  title = {Hacker&#39;s Delight},
+  author = {Warren, Henry S.},
+  date = {2003},
+  publisher = {Addison-Wesley},
+  location = {Boston},
+  isbn = {978-0-201-91465-8},
+  pagetotal = {306},
+  keywords = {Computer programming}
+}
+" />
     <meta name="author" content="" />
     
 

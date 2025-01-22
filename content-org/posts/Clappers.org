@@ -1,0 +1,25 @@
+
+#+title:      Clappers
+#+date:       <2025-01-232 on.>
+#+OPTIONS: author:nil
+#+STARTUP: inlineimages
+
+#+hugo_base_dir: ~/Dokumenter/sicl-hugo
+#+hugo_selection: posts
+#+hugo_front_matter_format: yaml
+
+* Clappers
+
+[[../../static/images/SICL-Structure.svg]]
+
+That is a basic outline of how I laid things out at present. Clash and Clover are just
+Mocks for now. The real development effort is put into Clector and Massa.
+
+# Local Variables:
+# eval: (set-fill-column 90)
+# eval: (auto-fill-mode t)
+# eval: (org-hugo-auto-export-mode t)
+# End:
+
+
+#  LocalWords:  Clector Massa
