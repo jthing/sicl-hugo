@@ -1,4 +1,3 @@
-
 #+title:      Clappers
 #+date:       <2025-01-232 on.>
 #+OPTIONS: author:nil
