@@ -1,5 +1,5 @@
 #+title:      Clappers
-#+date:       2025-01-22 on.>
+#+date:       2025-01-22 on.
 #+OPTIONS: author:nil
 #+STARTUP: inlineimages
 
