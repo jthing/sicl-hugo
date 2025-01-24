@@ -8,5 +8,5 @@ draft: false
 
 {{< figure src="/images/SICL-Structure.svg" >}}
 
-That is a basic outline of how I laid things out at present. Clash and Clover are just
-Mocks for now. The real development effort is put into Clector and Massa.
+That is a basic outline of how I laid things out at present. Clash is just a
+Mock for now. The real development effort is put into Clector and Massa.
