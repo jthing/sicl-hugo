@@ -1,5 +1,5 @@
-#+title: 	Codeberg
-#+date: 	2025-01-30 to.
+#+title:      Codeberg
+#+date:       2025-01-30 to.
 #+OPTIONS: author:nil
 #+STARTUP: inlineimages
 
@@ -11,7 +11,6 @@
 
 The Clappers repository has moved to Codeberg.
 [[https://codeberg.org/jpthing/Clappers]]
-
 
 
 # Local Variables:
