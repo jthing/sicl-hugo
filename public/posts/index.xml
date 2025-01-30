@@ -6,8 +6,15 @@
     <description>Recent content in Posts on SICL Compiler</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Jan 2025 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jan 2025 00:00:00 +0100</lastBuildDate>
     <atom:link href="//jthing.github.io/cicl-hugo/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Codeberg</title>
+      <link>//jthing.github.io/cicl-hugo/posts/codeberg/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0100</pubDate>
+      <guid>//jthing.github.io/cicl-hugo/posts/codeberg/</guid>
+      <description>&lt;h2 id=&#34;codeberg&#34;&gt;Codeberg&lt;/h2&gt;&#xA;&lt;p&gt;The Clappers repository has moved to Codeberg.&#xA;&lt;a href=&#34;https://codeberg.org/jpthing/Clappers&#34;&gt;https://codeberg.org/jpthing/Clappers&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Clappers</title>
       <link>//jthing.github.io/cicl-hugo/posts/clappers/</link>

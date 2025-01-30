@@ -1,0 +1,23 @@
+#+title:      Codeberg
+#+date:       2025-01-30 to.
+#+OPTIONS: author:nil
+#+STARTUP: inlineimages
+
+#+hugo_base_dir: ~/Dokumenter/sicl-hugo
+#+hugo_selection: posts
+#+hugo_front_matter_format: yaml
+
+* Codeberg
+
+The Clappers repository has moved to Codeberg.
+[[https://codeberg.org/jpthing/Clappers]]
+
+
+# Local Variables:
+# eval: (set-fill-column 90)
+# eval: (auto-fill-mode t)
+# eval: (org-hugo-auto-export-mode t)
+# End:
+
+
+#  LocalWords:  Clector Massa Codeberg
