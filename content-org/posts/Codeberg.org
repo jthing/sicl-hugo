@@ -1,5 +1,5 @@
-#+title:      Codeberg
-#+date:       2025-01-30 to.
+#+title: Codeberg
+#+date: 2025-01-30 to.
 #+OPTIONS: author:nil
 #+STARTUP: inlineimages
 
