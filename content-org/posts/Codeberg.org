@@ -12,7 +12,6 @@
 The Clappers repository has moved to Codeberg.
 [[https://codeberg.org/jpthing/Clappers]]
 
-
 # Local Variables:
 # eval: (set-fill-column 90)
 # eval: (auto-fill-mode t)
