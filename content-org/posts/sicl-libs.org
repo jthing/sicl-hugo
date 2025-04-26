@@ -7,7 +7,7 @@
 #+hugo_selection: posts
 #+hugo_front_matter_format: yaml
 
-* Sicl Library reference
+* SICL Library reference
 
 The chief developer of SICL Robert Strandh (beach) has come up with a website which
 describes the name and function of the SICL libraries. Their name and function.
