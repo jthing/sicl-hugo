@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//jthing.github.io/cicl-hugo/posts/codeberg/</loc>
-    <lastmod>2025-01-30T00:00:00+01:00</lastmod>
-  </url><url>
     <loc>//jthing.github.io/cicl-hugo/posts/</loc>
-    <lastmod>2025-01-30T00:00:00+01:00</lastmod>
+    <lastmod>2025-04-26T00:00:00+02:00</lastmod>
   </url><url>
     <loc>//jthing.github.io/cicl-hugo/</loc>
+    <lastmod>2025-04-26T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>//jthing.github.io/cicl-hugo/posts/sicl-libs/</loc>
+    <lastmod>2025-04-26T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>//jthing.github.io/cicl-hugo/posts/codeberg/</loc>
     <lastmod>2025-01-30T00:00:00+01:00</lastmod>
   </url><url>
     <loc>//jthing.github.io/cicl-hugo/posts/clappers/</loc>

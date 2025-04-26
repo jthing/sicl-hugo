@@ -1,0 +1,25 @@
+#+title:      SICL Library reference
+#+date:       2025-04-26 lø.
+#+OPTIONS: author:nil
+#+STARTUP: inlineimages
+
+#+hugo_base_dir: ~/Dokumenter/sicl-hugo
+#+hugo_selection: posts
+#+hugo_front_matter_format: yaml
+
+* Sicl Library reference
+
+The chief developer of SICL Robert Strandh (beach) has come up with a website which
+describes the name and function of the SICL libraries. Their name and function.
+
+[[http://metamodular.com/SICL-related-libraries/sicl-related-libraries.html]
+SICL-related libraries]
+
+# Local Variables:
+# eval: (set-fill-column 90)
+# eval: (auto-fill-mode t)
+# eval: (org-hugo-auto-export-mode t)
+# End:
+
+
+#  LocalWords:  Clector Massa
