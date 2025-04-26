@@ -9,5 +9,4 @@ draft: false
 The chief developer of SICL Robert Strandh (beach) has come up with a website which
 describes the name and function of the SICL libraries. Their name and function.
 
-[[<http://metamodular.com/SICL-related-libraries/sicl-related-libraries.html>]
-SICL-related libraries]
+[SICL-related libraries](http://metamodular.com/SICL-related-libraries/sicl-related-libraries.html)
